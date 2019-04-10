@@ -1,5 +1,5 @@
 ---
-title: "Yoga, Meditation and Hiking"
+title: "Mystical Yoga Breathwork Retreat"
 date: 2018-03-02T17:05:11-03:00
 dates: Oct, Nov, Dec 
 image: yogaAndMeditation
@@ -16,18 +16,19 @@ resources:
   params: 
     credits: "Myself the cook!"
 ---
-### Yoga, Meditation and Hiking Yoga Retreat
+A 6 day workshop, the use of breathing techniques, the release of emotions and the healing with voice and live music to open the inner centers, training a contact with a deep place of peace and inner silence.
 
-This amazing retreat is a combination of body and mind and is designed to lift you up spiritually and bring you back to earth, surrounding yourself with wilderness, beauty, and finding your inner self. You may even find yourself on the crater of one of Chile's most active volcanoes, the Villarica volcano. From daily yoga routines and national parks to active volcanoes and hot springs, this yoga and hike retreat in Pucon, Chile is one of those life time experiences you just have to go for.
+We will explore techniques to open the voice through chants and mantras, active meditation techniques from Osho, Toltec shamanic techniques to release the same past from the past, and techniques of Egyptian Alchemy and the Magic of Hawaii, to open the heart, expand The limits of our creative imagination, and relate to the 'Outer World' through a channel of light 
+and love and wake up from the collective dream of humanity and remember who you are, and why you came to Earth. 
 
-Here is some new text/ 
+* Breathe in paradise! Connect to Earth, Sky and nature.
+* Open your heart and love the parts of you that you push away.
+* Connect with non-physical realms, your guides, and the Divine.
 
-more text
- mas text
 
 **RETREAT HIGHLIGHTS**
 
-* Daily yoga classes
+* Daily Yoga classes
 * Daily meditation sessions
 * Daily Activity: Most days this is Hiking
 * Organic juices and smoothies
@@ -84,3 +85,5 @@ The venue will be a beautiful eco-lodge set on an acre of abundant nature and ga
 
 * 1 yoga class
 * Breakfast
+
+

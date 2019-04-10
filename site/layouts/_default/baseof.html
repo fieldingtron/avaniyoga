@@ -21,13 +21,13 @@
   {{ end }}
 </head>
 
-<body>
+<body >
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
   {{ block "main" . }}{{end}}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
 
   {{ $script := .Site.Data.webpack.main }}
