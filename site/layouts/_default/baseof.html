@@ -8,17 +8,18 @@
   <title>{{ $.Site.Title }}</title>
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet"> -->
+  <link href="/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="/css/style.css" rel="stylesheet">
 
-  <link href="/mdb-complied-4.7.5.min.css" rel="stylesheet">
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
-  {{ end }}
+  {{ end }}  
 </head>
 
 <body >
@@ -29,11 +30,26 @@
 
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/js/mdb.min.js"></script>
 
-  {{ $script := .Site.Data.webpack.main }}
-  <!-- {{ with $script.js }}
+  <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
+  
+  <script type="text/javascript" src="/js/contactform.js"></script>
+
+  <!--
+   {{ $script := .Site.Data.webpack.main }}
+   {{ with $script.js }}
     <script src="{{ relURL . }}"></script>
-  {{ end }}
-</body> -->
+  {{ end }}-->
+
+</body> 
 
 </html>

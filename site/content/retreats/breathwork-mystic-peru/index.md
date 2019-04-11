@@ -14,7 +14,7 @@ resources:
   title: "Shiny Glaze"
 - src: "*.jpg"
   params: 
-    credits: "Myself the cook!"
+    credits: "Yoga Yoga Yoga!"
 ---
 A 6 day workshop, the use of breathing techniques, the release of emotions and the healing with voice and live music to open the inner centers, training a contact with a deep place of peace and inner silence.
 
