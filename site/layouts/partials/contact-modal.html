@@ -2,26 +2,50 @@
 <div class="modal fade" id="cmodal" tabindex="-1" role="dialog" aria-labelledby="cmodal" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!-- <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </div> -->
       <div class="modal-body">
         <div class="row">
-          <div class="col-md-4">hello </div>
+          <div class="col-md-4">
+              <img class="card-img-top img-thumbnail img-fluid rounded" src="{{ .imgurl }}"
+              class="img-fluid img-thumbnail" alt="{{ .imgname }}" /> 
+
+              {{.color}}
+
+          </div>
           <div class="col-md-8">
-            <div class="text-center">
-              <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
-                ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
-                ab officiis totam.</p>
-                <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
-                ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
-                ab officiis totam.</p>
-            </div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button><div class="h4">Check availability and plan your trip</div>
+              
+                <form class="border border-light p-2">
+
+                    <p class="h4 mb-4 text-center">Contact Mystic Retreats</p>
+                
+                
+                    <input type="text" id="contact-lastname" class="form-control mb-4" placeholder="Firstname" >
+
+                    <input type="text" id="contact-lastname" class="form-control mb-4" placeholder="Lastname" >
+                
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <select class="browser-default custom-select">
+                        <option selected value="1">Unknown Dates or Select Here</option>
+                        <option value="2">Oct 18, 2018</option>
+                        <option value="3">Dec 18, 2018</option>
+                      </select>
+                
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="7" placeholder="Message"></textarea>
+                
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                    </div>
+                    </form>
           </div>
         </div>
 
@@ -32,4 +56,3 @@
     </div>
   </div>
 </div>
-POSITION & SIZES

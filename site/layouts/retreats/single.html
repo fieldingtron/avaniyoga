@@ -75,11 +75,11 @@
                                     <form>
                                         
 
-                                        <select class="browser-default custom-select">
-                                                <option selected value="1">Nov 18, 2018</option>
-                                                <option value="2">Oct 18, 2018</option>
-                                                <option value="3">Dec 18, 2018</option>
-                                              </select>
+                                            <select class="browser-default custom-select">
+                                                    <option selected value="1">Nov 18, 2018</option>
+                                                    <option value="2">Oct 18, 2018</option>
+                                                    <option value="3">Dec 18, 2018</option>
+                                                  </select>
                                      
                                     </form>
                                     <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">Send Inquiry</a>
@@ -116,5 +116,7 @@
 
 {{ define "footer" }}
 {{ partial "footer" . }}
-{{ partial "contact-modal.html" . }}
+{{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
+{{ partial "contact-modal.html" (dict "color" "blue" "imgurl"  $image.RelPermalink  "imgname" $image.Name )   }}
+
 {{end}}
