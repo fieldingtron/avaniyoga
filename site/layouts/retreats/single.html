@@ -57,6 +57,10 @@
                             {{ end }}
                         </div>
                     </div>
+                    {{ range .Params.dates }}
+                        {{ . }} <!-- The . represents an element in $array -->
+                     {{ end }}
+
                     {{ .Content }}
 
 
@@ -117,6 +121,6 @@
 {{ define "footer" }}
 {{ partial "footer" . }}
 {{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
-{{ partial "contact-modal.html" (dict "color" "blue" "imgurl"  $image.RelPermalink  "imgname" $image.Name )   }}
+{{ partial "contact-modal.html" (dict "title" .Title "imgurl" $image.RelPermalink  "imgname" $image.Name )   }}
 
 {{end}}

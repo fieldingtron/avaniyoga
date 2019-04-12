@@ -1,7 +1,7 @@
 ---
 title: "Mystical Yoga Breathwork Retreat"
 date: 2018-03-02T17:05:11-03:00
-dates: Oct, Nov, Dec 
+dates: [Oct, Nov, Dec]
 image: yogaAndMeditation
 draft: false
 resources:

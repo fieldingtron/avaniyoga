@@ -8,14 +8,26 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div> -->
-      <div class="modal-body">
+      <div class="modal-body pb-0">
         <div class="row">
           <div class="col-md-4">
-              <img class="card-img-top img-thumbnail img-fluid rounded" src="{{ .imgurl }}"
-              class="img-fluid img-thumbnail" alt="{{ .imgname }}" /> 
+              <img src="{{ .imgurl }}" class="img-fluid" alt="{{ .imgname }}" /> 
+              <h4 class="h5">{{ .title }}</h4>
+              <p> 1 Person Private Bedroom</p>
+              <ul>
+                <li>All Inclusive</li>
+                <li>Daily Yoga Classes</li>
+                <li>Mystical Breathing</li>
+                <li>Local Organic Meals</li>
 
-              {{.color}}
+              </ul>
 
+              <!-- <p> April 11, 2019 -> April 16, 2019</p> -->
+              <h4 class="h5">Total Price: <span class="h3"><strong>$1000</strong></span></h4>
+
+
+
+ 
           </div>
           <div class="col-md-8">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -24,33 +36,33 @@
               
                 <form class="border border-light p-2">
 
-                    <p class="h4 mb-4 text-center">Contact Mystic Retreats</p>
+                    <p class="h4 mb-3 text-center">Contact Mystic Retreats</p>
                 
                 
-                    <input type="text" id="contact-lastname" class="form-control mb-4" placeholder="Firstname" >
+                    <input type="text" id="contact-name" class="form-control mb-2" placeholder="Name" >
 
-                    <input type="text" id="contact-lastname" class="form-control mb-4" placeholder="Lastname" >
+                    <input type="text" id="contact-phone-number" class="form-control mb-2" placeholder="Phone Number (optional)" >
                 
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <input type="email" id="contact-email" class="form-control mb-2" placeholder="E-mail">
 
-                    <select class="browser-default custom-select">
-                        <option selected value="1">Unknown Dates or Select Here</option>
-                        <option value="2">Oct 18, 2018</option>
+                    <select class="browser-default custom-select mb-2">
+                        <option selected value="No Choice">Choose your Date of Arrival</option>
+                        <option value="Unknown">Unknown</option>
                         <option value="3">Dec 18, 2018</option>
                       </select>
                 
                     <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="7" placeholder="Message"></textarea>
                 
-                    <div class="custom-control custom-checkbox mb-4">
+                    <!-- <div class="custom-control custom-checkbox mb-4">
                         <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
                         <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-                    </div>
+                    </div> -->
                     </form>
           </div>
         </div>
 
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer py-1">
         <button type="button" class="btn btn-success">Send Message</button>
       </div>
     </div>
