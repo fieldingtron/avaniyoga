@@ -11,60 +11,90 @@
       <div class="modal-body pb-0">
         <div class="row">
           <div class="col-md-4">
-              <img src="{{ .imgurl }}" class="img-fluid" alt="{{ .imgname }}" /> 
-              <h4 class="h5">{{ .title }}</h4>
-              <p> 1 Person Private Bedroom</p>
-              <ul>
-                <li>All Inclusive</li>
-                <li>Daily Yoga Classes</li>
-                <li>Mystical Breathing</li>
-                <li>Local Organic Meals</li>
 
-              </ul>
+            <div class="d-block d-md-none"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button></div>
+            <img src="{{ .imgurl }}" class="img-fluid" alt="{{ .imgname }}" />
+            <h4 class="h5" id="mretreatname">{{ .title }}</h4>
+            <p> {{.params.duration}}</p>
 
-              <!-- <p> April 11, 2019 -> April 16, 2019</p> -->
-              <h4 class="h5">Total Price: <span class="h3"><strong>$1000</strong></span></h4>
+            <p> 1 Person Private Bedroom</p>
+            <ul>
+              {{ range .params.bulletpoints }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+
+            <!-- <p> April 11, 2019 -> April 16, 2019</p> -->
+            <h4 class="h6">Total Price: <span class="h5"><strong>{{.price}}</strong></span></h4>
 
 
 
- 
+
           </div>
           <div class="col-md-8">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button><div class="h4">Check availability and plan your trip</div>
-              
-                <form class="border border-light p-2">
 
-                    <p class="h4 mb-3 text-center">Contact Mystic Retreats</p>
-                
-                
-                    <input type="text" id="contact-name" class="form-control mb-2" placeholder="Name" >
+            <div class="d-none d-md-block"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button></div>
 
-                    <input type="text" id="contact-phone-number" class="form-control mb-2" placeholder="Phone Number (optional)" >
-                
-                    <input type="email" id="contact-email" class="form-control mb-2" placeholder="E-mail">
+            <div class="h4">Check availability and plan your Dream trip</div>
 
-                    <select class="browser-default custom-select mb-2">
-                        <option selected value="No Choice">Choose your Date of Arrival</option>
-                        <option value="Unknown">Unknown</option>
-                        <option value="3">Dec 18, 2018</option>
-                      </select>
-                
-                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="7" placeholder="Message"></textarea>
-                
-                    <!-- <div class="custom-control custom-checkbox mb-4">
+            <form class="border border-light p-2" id="cmodalForm">
+
+              <p class="h4 mb-3 text-center">Contact Mystic Retreats</p>
+
+              <div class="control-group">
+                <input type="text" id="contact-name" class="form-control mb-2" placeholder="Name" minlength="3"
+                  required>
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <input type="text" id="contact-phone" class="form-control mb-2"
+                placeholder="Phone Number (optional)">
+
+              <div class="control-group">
+                <input type="email" id="contact-email" class="form-control mb-2" placeholder="E-mail" required>
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <select id="modalselect" class="browser-default custom-select mb-2">
+                <option value="select">Select Dates</option>
+                <option value="nodates">No Dates Yet</option>
+                <!-- {{ $c := 0 }} 
+                  {{ if eq $c 0  }} selected{{ end }}
+                   {{$c = add $c 1}}
+                  -->
+                {{ range .params.dates }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+              </select>
+
+              <div class="control-group">
+                <textarea class="form-control rounded-0" id="contact-message" rows="7" placeholder="Message"
+                  minlength="3" required></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <div id="successcm"></div>
+
+              <!-- <div class="custom-control custom-checkbox mb-4">
                         <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
                         <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
                     </div> -->
-                    </form>
+              <div class="text-right">
+
+                <button type="submit" class="btn btn-success" id="sendMessageButtonCM">Send Message</button>
+              </div />
+            </form>
+
           </div>
         </div>
 
       </div>
-      <div class="modal-footer py-1">
-        <button type="button" class="btn btn-success">Send Message</button>
-      </div>
+      <!-- <div class="modal-footer py-1">
+      </div> -->
     </div>
   </div>
 </div>

@@ -1,7 +1,10 @@
 ---
 title: "Mystical Yoga Breathwork Retreat"
 date: 2018-03-02T17:05:11-03:00
-dates: [Oct, Nov, Dec]
+dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
+price: "$1800 USD"
+duration: "6 Days, 5 Nights"
+bulletpoints: [All Inclusive, Daily Yoga Classes, Mystical Breathing, "Local, Organic Meals"]
 image: yogaAndMeditation
 draft: false
 resources:
@@ -24,7 +27,6 @@ and love and wake up from the collective dream of humanity and remember who you 
 * Breathe in paradise! Connect to Earth, Sky and nature.
 * Open your heart and love the parts of you that you push away.
 * Connect with non-physical realms, your guides, and the Divine.
-
 
 **RETREAT HIGHLIGHTS**
 
@@ -85,5 +87,3 @@ The venue will be a beautiful eco-lodge set on an acre of abundant nature and ga
 
 * 1 yoga class
 * Breakfast
-
-

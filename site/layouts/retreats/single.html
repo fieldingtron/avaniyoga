@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-8">
 
-                <h1 class="h3">{{ .Title }}</h1>
+                <h1 class="h3" id="retreat-name">{{ .Title }}</h1>
                 {{ $numberz:= 1}}
                 <div id="Yoga{{$numberz}}" class="carousel slide my-2" data-ride="carousel" data-interval="2000">
                     <!--Indicators for Carousel-->
@@ -57,9 +57,7 @@
                             {{ end }}
                         </div>
                     </div>
-                    {{ range .Params.dates }}
-                        {{ . }} <!-- The . represents an element in $array -->
-                     {{ end }}
+
 
                     {{ .Content }}
 
@@ -72,42 +70,49 @@
                         <img class="card-img-top img-thumbnail img-fluid rounded" src="{{ $image.RelPermalink }}"
                             class="img-fluid img-thumbnail" alt="{{ $image.Name }}" />
                         <div class="card-body">
-                            <h5>7 Days, 6 Nights</h4>
-                                <h3 class="card-title"> US$ 1800</h4>
+                            <h5>{{ .Params.duration }}</h4>
+                                <h3 class="card-title"> {{ .Params.price }}</h3>
 
                                     <p class="card-text">Select Arrival Date</p>
                                     <form>
-                                        
 
-                                            <select class="browser-default custom-select">
-                                                    <option selected value="1">Nov 18, 2018</option>
-                                                    <option value="2">Oct 18, 2018</option>
-                                                    <option value="3">Dec 18, 2018</option>
-                                                  </select>
-                                     
+                                    <select id="pageselect" class="browser-default custom-select mb-2">
+                                        <option value="select">Select Dates</option>
+                                        <option value="nodates">No Dates Yet</option>
+                                        <!-- {{ $c := 0 }} 
+                                        {{ if eq $c 0  }} selected{{ end }}
+                                         {{$c = add $c 1}}
+
+                                         action="https://wt-91166be44de88dd13bf56d1de8dbc12b-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=2000&description=Test%20item"
+
+                                        -->
+                                        {{ range .Params.dates }}
+                                        <option value="{{ . }}">{{ . }}</option>
+                                        {{ end }}
+                                    </select>
+
                                     </form>
-                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">Send Inquiry</a>
-                                    <form
-                                        action="https://wt-91166be44de88dd13bf56d1de8dbc12b-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=2000&description=Test%20item"
-                                        method="POST">
+                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal"
+                                        data-target="#cmodal">Send Inquiry</a>
+                                    <form action="https://wt-91166be44de88dd13bf56d1de8dbc12b-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=20000&description=Test%20item"  method="POST">
                                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                            data-key="pk_test_hmuxAR4Gp8zFUrhZbbou8wPx" data-amount="3000"
+                                            data-key="pk_test_hmuxAR4Gp8zFUrhZbbou8wPx" data-amount="20000"
                                             data-name="Stripe.com" data-description="Test item" data-locale="auto">
                                             </script>
                                         <script>
                                             // Hide default stripe button, be careful there if you
                                             // have more than 1 button of that class
+                                            //payment handled with webtask.io
                                             document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
                                         </script>
-                                        <button type="submit" class="btn btn-outline-primary btn-block my-1">Make a
-                                            Deposit</button>
+                                        <button type="submit" class="btn btn-outline-primary btn-block my-1">Make a  Deposit</button>
                                     </form>
 
 
 
                                     <h3 class="h5 text-center py-2">Testimonials</h3>
 
-                                     
+
 
 
                         </div>
@@ -118,9 +123,9 @@
     </div>
     {{ end }}
 
-{{ define "footer" }}
-{{ partial "footer" . }}
-{{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
-{{ partial "contact-modal.html" (dict "title" .Title "imgurl" $image.RelPermalink  "imgname" $image.Name )   }}
+    {{ define "footer" }}
+    {{ partial "footer" . }}
+    {{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
+    {{ partial "contact-modal.html" (dict "title" .Title "imgurl" $image.RelPermalink  "imgname" $image.Name "dates" .Params.dates "price" .Params.price "params" .Params)   }}
 
-{{end}}
+    {{end}}
