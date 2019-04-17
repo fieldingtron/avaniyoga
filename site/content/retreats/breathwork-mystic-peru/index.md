@@ -24,6 +24,13 @@ A 6 day workshop, the use of breathing techniques, the release of emotions and t
 We will explore techniques to open the voice through chants and mantras, active meditation techniques from Osho, Toltec shamanic techniques to release the same past from the past, and techniques of Egyptian Alchemy and the Magic of Hawaii, to open the heart, expand The limits of our creative imagination, and relate to the 'Outer World' through a channel of light 
 and love and wake up from the collective dream of humanity and remember who you are, and why you came to Earth. 
 
+
+Breath is a powerful tool to dive safely and deeply within one’s own soul, releasing and healing traumas, unblocking channels and dissolving limiting emotional patterns in the cellular memories.  We will open the body, heart and mind to a new, fresh, conscious life of unlimited  possibilities. 
+
+We will explore many forms of breath journey:  Rebirthing, shamanic circular breath, chakra cleaning,  Toltec recapitulation, and Egyptian Alchemical transformation, bringing us to a deep harmony and peace within through the miraculous vehicle of our own breathing,  Exploring non-ordinary states of consciousness with the tender support of touch, sound healing,  crystal healing and essential oils.
+In addition, we will open the voice through chants and mantras, active movement meditation techniques   and expand the limits of our creative imagination through art, relating to the 'Outer World' through a channel of light and love. 
+
+
 * Breathe in paradise! Connect to Earth, Sky and nature.
 * Open your heart and love the parts of you that you push away.
 * Connect with non-physical realms, your guides, and the Divine.
@@ -31,11 +38,18 @@ and love and wake up from the collective dream of humanity and remember who you 
 **RETREAT HIGHLIGHTS**
 
 * Daily Yoga classes
-* Daily meditation sessions
-* Daily Activity: Most days this is Hiking
-* Organic juices and smoothies
-* 5 nights’ accommodation
-* Organic meals
+* Daily Adventures and Ceremonies in Ancient Sacred Temples
+* Cleaning and Clearing the Energy Body through  breath journeys and crystal sound healing 
+* Awaken dormant creativity and commune with your guides.
+* Live Music meditations, Concert, FIre Ceremonie and Spirit Journeys
+* Active Meditations and ecstatic dance with live music
+* Relating and Working with the 4 Sacred Elements 
+* Toltec Wisdom: Recapitulation, Dreaming, Magic Passes
+ * Hooponopono and Tonglen; learning forgiveness and sharing unconditional love
+* Singing: Opening the natural voice and Creativity through Primal Clay and Vision Painting
+* Daily Yoga class 
+
+
 
 **YOGA STYLES**
 
@@ -48,42 +62,70 @@ and love and wake up from the collective dream of humanity and remember who you 
 
 ### Accommodation
 
-The venue will be a beautiful eco-lodge set on an acre of abundant nature and gardens. It is located on the hill near Lake Villarica in northern Patagonia. The yoga lodge is located near a mountain stream and at night you can relax to the sound of running water and in the morning be woken up by birdsong. All buildings’ interiors are made of natural materials. You will stay in a twin or double room that is heated with radiators so that it will be warm and comfortable.
+more info here 
 
-### Avani Yoga Retreats Chile Yoga Retreat Schedule
+### Mystical Breathwork Retreat Schedule
 
-#### Day 1 Arrival
 
-* 1 yoga class
-* Welcome lunch
 
-#### Day 2 Huerquehue National Park
 
-* 1 yoga class
-* Full day hike
-* Optional kayaking, hot tub
-* Breakfast and lunch
+#### DAY 1:  
+* 3pm:  Arrival, taking time to rest an connect with the place.
+* 4 pm: Opening Circle, sharing intention for the group
+* 5pm:  Chakra Breathing meditation
+* 7pm:  freetime
+* 8pm:  Dinner
+* 9:30  Healing Music and guided meditation
+* 10:30 Sleep
 
-#### Day 3 Hot Springs Day
+DAY 2:
+8am:  Yoga Class, Tai Chi, and Magic Passes
+9:30:  Breakfast in Silence
+11:00 Mystic Breath session
+1 pm: Connecting with Nature Ritual: The Sacred Elements
+2 pm: Lunch
+4-7 pm: Temple Exploration and ceremonies
+8 pm Dinner
+9:30 Fire Ritual/chanting/drumming
 
-* 1 yoga class
-* Hot springs
-* Breakfast and lunch
+DAY 3:
+8 am  Yoga/Tai Chi/ Magic Passes
+9:30 Breakfast
+11:00 Alchemical Meditations
+1 pm:  Nature Ritual/Sacred Elements
+2 pm: Lunch
+4 pm: Opening the Natural Voice 
+7 pm: freetime
+8 pm:  Dinner
+9:30 Caco Ceremony/Ecstatic Dance
+11 pm:  Sleep
 
-#### Day 4 Cañi National Park
+DAY 4:
+8 am  Yoga/Tai Chi/ Magic Passes
+9:30 Breakfast
+11 am:  Alup Breathing/Recapitulation/Tree of Life
+1 pm: Nature Ritual/ Sacred Elements
+2 pm: Lunch
+4 pm: Temple Exploration/Ceremony
+7 pm: freetime
+8 pm: Dinner
+9:30 pm:  Mantra Singing / chanting
 
-* 1 yoga class
-* Full day hike
-* Breakfast and lunch
+DAY 5:
+8 am: Yoga/Tai Chi/ Magic Passes
+9:30: Breakfast
+11 am: Latihan/Mahamudra/Tonglen Meditations
+1 pm: Nature RItual / Sacred Rituals
+2 pm: Lunch 
+4 pm: Primal Clay/ Painting Dreams
+7 pm: freetime
+8 pm: Dinner
+9:30 Concert of Meditation Music:  Free Your Soul
 
-#### DAY 5 SPA DAY & REST DAY
 
-* 1 yoga class
-* 1 full body 1-hour massage
-* Option to pick an additional add-on
-* Breakfast, lunch and farewell dinner
-
-#### DAY 6 FAREWELL
-
-* 1 yoga class
-* Breakfast
+DAY 6:
+8 am: Yoga/ Tai Chi/ Magic Passes
+9:30 :  Breakfast
+11 am: Mercado/exploring/shopping 
+Lunch Outside
+3 pm: Closing Ceremony-Connecting Hearts
