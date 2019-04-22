@@ -91,9 +91,9 @@
                                         {{ end }}
                                     </select>
 
-                                    </form>
-                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal"
-                                        data-target="#cmodal">Send Inquiry</a>
+                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">Send Inquiry</a>
+                                </form>
+
                                     <form action="https://wt-91166be44de88dd13bf56d1de8dbc12b-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=20000&description=Test%20item"  method="POST">
                                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                             data-key="pk_test_hmuxAR4Gp8zFUrhZbbou8wPx" data-amount="20000"
@@ -113,6 +113,10 @@
                                     <h3 class="h5 text-center py-2">Testimonials</h3>
 
 
+                                    <button id="buttonz">Click to Buy! <strong>$10</strong></button>
+                                    <div id="messageBox">
+                                      <h2></h2>
+                                    </div>
 
 
                         </div>

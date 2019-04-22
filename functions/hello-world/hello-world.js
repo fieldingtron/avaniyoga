@@ -1,5 +1,7 @@
+require('dotenv').config();
+
 async function hello() {
-  return Promise.resolve("Hello, World");
+  return Promise.resolve("Hello, World :"+process.env.STRIPE_SECRET_KEY);
 }
 
 exports.handler = async function(event, context) {

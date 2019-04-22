@@ -13,13 +13,12 @@
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="/css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="/css/style.css" rel="stylesheet">
+  <!-- Your custom styles (optional)
+  <link href="/css/style.css" rel="stylesheet"> -->
 
-  {{ $stylesheet := .Site.Data.webpack.main }}
-  {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
-  {{ end }}  
+  {{ $s := resources.Get "/sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") | minify }}
+  <link rel="stylesheet" href="{{ $s.Permalink }}" />
+
 </head>
 
 <body >
@@ -43,6 +42,8 @@
   <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
   
   <script type="text/javascript" src="/js/contactform.js"></script>
+
+  <script type="text/javascript" src="/js/stripez.js"></script>
 
   <!--
    {{ $script := .Site.Data.webpack.main }}
