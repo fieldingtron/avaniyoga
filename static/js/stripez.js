@@ -28,7 +28,7 @@ const handler = StripeCheckout.configure({
   },
   token: function(token) {
 
-    fetch(`http://localhost:8888/.netlify/functions/stripe-charge/stripe-charge`, {
+    fetch(`https://mysticretreats.netlify.com/.netlify/functions/stripe-charge/stripe-charge`, {
       method: 'POST',
       body: JSON.stringify({
         token,
