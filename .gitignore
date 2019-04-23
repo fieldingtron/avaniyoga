@@ -4,3 +4,4 @@ site/data/webpack.json
 public/
 .env
 .netlify
+resources
