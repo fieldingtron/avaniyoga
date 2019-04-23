@@ -14,12 +14,10 @@
   
   <link href="/css/mdb.min.css" rel="stylesheet">
   
-  <link href="/css/style.css" rel="stylesheet">
 
   
-  
-    <link href="/main.css" rel="stylesheet">
-    
+  <link rel="stylesheet" href="/sass/app.min.css" />
+
 </head>
 
 <body >
@@ -350,9 +348,9 @@ Lunch Outside
                                         
                                     </select>
 
-                                    </form>
-                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal"
-                                        data-target="#cmodal">Send Inquiry</a>
+                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">Send Inquiry</a>
+                                </form>
+
                                     <form action="https://wt-91166be44de88dd13bf56d1de8dbc12b-0.sandbox.auth0-extend.com/stripe-payment/payment?currency=USD&amount=20000&description=Test%20item"  method="POST">
                                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                             data-key="pk_test_hmuxAR4Gp8zFUrhZbbou8wPx" data-amount="20000"
@@ -372,6 +370,10 @@ Lunch Outside
                                     <h3 class="h5 text-center py-2">Testimonials</h3>
 
 
+                                    <button id="buttonz">Click to Buy! <strong>$10</strong></button>
+                                    <div id="messageBox">
+                                      <h2></h2>
+                                    </div>
 
 
                         </div>
@@ -567,6 +569,8 @@ Lunch Outside
   <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
   
   <script type="text/javascript" src="/js/contactform.js"></script>
+
+  <script type="text/javascript" src="/js/stripez.js"></script>
 
   
 
