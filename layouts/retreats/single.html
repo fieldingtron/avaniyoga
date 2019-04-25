@@ -37,10 +37,10 @@
                                 <img class="d-block w-100" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Name }}" />
 
                                 <!--  {{ .Title }}  {{ .Name }} {{ .Params.credits }} -->
-                                <div class="carousel-caption d-none d-md-block">
+                                <!-- <div class="carousel-caption d-none d-md-block">
                                     <h3 class="tshadow1"> {{ .Title }}</h3>
                                     <p class="tshadow1"> {{ .Params.credits }}</p>
-                                </div>
+                                </div> -->
                             </div>
                             {{ end }}
 
@@ -71,7 +71,7 @@
                             class="img-fluid img-thumbnail" alt="{{ $image.Name }}" />
                         <div class="card-body">
                             <h5>{{ .Params.duration }}</h4>
-                                <h3 class="card-title"> {{ .Params.price }}</h3>
+                                <h3 class="card-title"> $<span id="price">{{ .Params.price }}</span> USD</h3>
 
                                     <p class="card-text">Select Arrival Date</p>
                                     <form>
@@ -113,7 +113,7 @@
                                     <h3 class="h5 text-center py-2">Testimonials</h3>
 
 
-                                    <button id="buttonz">Click to Buy! <strong>$10</strong></button>
+                                    <button id="buttonz">Click to Buy! <strong>${{.Params.price}}</strong></button>
                                     <div id="messageBox">
                                       <h2></h2>
                                     </div>

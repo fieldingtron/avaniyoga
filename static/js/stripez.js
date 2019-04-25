@@ -1,12 +1,13 @@
 //import uuid from 'uuid/v4';
 
 
-const amount = 1000;
+const amount = document.getElementById('price').textContent * 100;
+console.log("ammount="+amount);
 const $messageBox = document.getElementById('messageBox');
 const $button = document.getElementById('buttonz');
 
 function resetButtonText() {
-  $button.innerHTML = 'Click to Buy! <strong>$10</strong>';
+  $button.innerHTML = 'Click to Buy! <strong>'+amount+'</strong>';
 }
 
 function create_UUID(){
@@ -63,7 +64,7 @@ $button.addEventListener('click', () => {
 
   handler.open({
     amount,
-    name: 'Test Shop',
+    name: 'Mystic Retreats',
     description: 'A Fantastic New Widget'
   });
 });

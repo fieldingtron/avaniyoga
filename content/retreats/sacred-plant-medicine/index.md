@@ -1,0 +1,139 @@
+---
+title: "Sacred Plant Medicine Retreat"
+date: 2018-03-02T17:05:11-03:00
+dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
+price: "1500"
+duration: "6 Days, 5 Nights"
+bulletpoints: [All Inclusive, Daily Yoga Classes, Ayahuasca Medicine, "Local, Organic Meals"]
+image: yogaAndMeditation
+draft: false
+resources:
+- src: "yogaAndMeditation1.jpg"
+  title: "Yummy Cupcake"
+  name: cupcake-1
+  params: 
+    credits: "Very Good Meditation"
+- src: "*2.jpg"
+  title: "Shiny Glaze"
+- src: "*.jpg"
+  params: 
+    credits: "Yoga Yoga Yoga!"
+---
+This retreat is designed to connect with the soul of nature, feel the awakening of the inner divinity.Working to Let go of fear, discovering true  peace and connection to your heart and to the Cosmos. in a process with contribute to  Releasing  all tension and negativity from the mental and emotional bodies, illuminating one's path, and restoring spiritual vision.
+	
+To experience deep healing that reaches into the energetic roots of trauma, imbalance and disorder, as well as initiates a long-term journey of self-reflection, self-discovery and spiritual transformation.
+
+Ayahuasca medicine go very deep in to your soul,  Awakening  new levels of mind, body and spirit connection by letting go of emotional baggage and physical toxins that hold you back from shining your most authentic empowered self to the world. 
+
+We  respect the indigenous healing traditions of the Amazon that have evolved over thousands of years and offer the most effective ayahuasca healing experience. We work with some of the most respected, and powerful healers from the Shipibo tribe, who are experts in ayahuasca healing and plant-spirit shamanism of the Amazon.
+
+The healing process is focused on cleansing and purifying the energy field that surrounds us. We are committed to providing the safest and deepest ayahuasca healing and plant-spirit shamanism experience in the Amazon, but of equal importance, ensuring that you are able to sustain, cultivate and integrate your healing experiences back into day-to-day life after your retreat.We constantly strive to create the optimal conditions and orientation to work with ayahuasca.
+
+Also we be sharing with wonderful light beings, doctors of plants, and the soul, Mr. Jaime Flores Quenemetza accompanied by his brother Pablo Flores and family. 
+
+
+### Ayahuasca Ceremony
+* Cleaning energy Ceremony, connecting with the Sacred  Elements
+* 2 Guided Wachuma Ceremonies in power places 
+* Guided Meditations and Shamanic breathwork
+* Awakening the sacred body through Yoga, Magic passes and Tai Chi
+* Meditation Concert and Ecstatic Dance with Live Music
+* lodging in the Sacred Valley
+* Transfers from airports and hotels
+
+### RETREAT HIGHLIGHTS
+
+* Daily Yoga classes
+* Daily Adventures and Ceremonies in Ancient Sacred Temples
+* Cleaning and Clearing the Energy Body through  breath journeys and crystal sound healing 
+* Awaken dormant creativity and commune with your guides.
+* Live Music meditations, Concert, FIre Ceremonie and Spirit Journeys
+* Active Meditations and ecstatic dance with live music
+* Relating and Working with the 4 Sacred Elements 
+* Toltec Wisdom: Recapitulation, Dreaming, Magic Passes
+ * Hooponopono and Tonglen; learning forgiveness and sharing unconditional love
+* Singing: Opening the natural voice and Creativity through Primal Clay and Vision Painting
+* Daily Yoga class 
+
+
+
+**YOGA STYLES**
+
+* Hatha
+* 5 days with instruction in English
+
+**Spoken languages**
+
+* English, Spanish
+
+### Accommodation
+
+more info here 
+
+Fire Ceremony
+Fire is the element of release and transformation. Fire holds a tremendous power – when we connect with conscious intent, the effects will be immediate. During the ritual we will connect with Tobacco, a master plant known by all native traditions as an amplifier of prayers. (There will be no smoking. Tobacco can be used in many different ways).
+
+
+### Mystical Breathwork Retreat Schedule
+
+
+
+
+
+#### SAN PEDRO/ WACHUMA RETREATS PROGRAM:
+
+#### DAY 1:  
+* 3pm:  Arrival, taking time to rest an connect with the place.
+* 4 pm: Opening Circle, sharing intention for the group
+* 5pm:  Chakra Breathing meditation
+* 7pm:  freetime
+* 9:30pm:  Healing Music and guided meditation
+* 10:30pm Sleep 
+
+#### DAY 2:
+* 8 am: Yoga/Tai Chi/ Magic Passes
+* 9:30 am Light Breakfast
+* 11-12 Rest; consider personal intention; Silent time
+* 12 noon: Travel to ceremony site
+* 1 pm:  Wachuma Ceremony
+* 9 pm:  Return/ Dinner
+* 10 pm: Closing Ritual/ Sleep
+
+#### DAY 3:
+* 8 am: Yoga/Tai Chi/ Magic Passes
+* 9:30 am: Breakfast
+* 11-1 Massage session
+* 1 pm: Nature Ritual /Saluting the Apus
+* 2 pm: Lunch
+* 4pm: Temple Exploration/ Ceremony
+* 7 pm: Freetime
+* 8 pm: Dinner
+* 9:30 Sound Healing with Live Music
+* 10:30 Sleep
+
+#### DAY 4:
+* 8 am: Yoga/Tai Chi/ Magic Passes
+* 11 am:  Mystic Breath Session
+* 1 pm: Nature Ritual/ Sacred Elements
+* 2 pm: Lunch
+* 4 pm: Alchemical Meditations/ Movement Meditations
+* 6 pm: Opening the Natural Voice
+* 8 pm: Dinner
+* 9:30 pm Concert Meditation Music
+* 11 pm Sleep
+
+#### DAY 5:
+* 8 am: Yoga/Tai Chi/ Magic Passes
+* 9:30 am Light Breakfast
+* 11-12 Rest; consider personal intention; Silent time
+* 12 noon: Travel to ceremony site
+* 1 pm:  Wachuma Ceremony
+* 9 pm:  Return/ Dinner
+* 10 pm: Closing Ritual/ Sleep
+
+#### DAY 6:
+* 8 am: Yoga/ Tai Chi/ Magic Passes
+* 9:30 :  Breakfast
+* 11 am: Mercado/exploring/shopping 
+* Lunch Outside
+* 3 pm: Closing Ceremony-Connecting Hearts

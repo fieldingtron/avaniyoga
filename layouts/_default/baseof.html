@@ -24,8 +24,10 @@
 <body >
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
-
+<div class="mt-5 pt-4">
   {{ block "main" . }}{{end}}
+
+</div>
 
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
@@ -38,13 +40,19 @@
   <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="/js/mdb.min.js"></script>
+  <!-- validation library -->
 
   <script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>
-  
+
+  <!-- contact form -->
   <script type="text/javascript" src="/js/contactform.js"></script>
 
-  <script type="text/javascript" src="/js/stripez.js"></script>
+  <!-- general app -->
+  <script type="text/javascript" src="/js/app.js"></script>
 
+{{ if .Params.stripe }}
+  <script type="text/javascript" src="/js/stripez.js"></script>
+{{ end }}
   <!--
    {{ $script := .Site.Data.webpack.main }}
    {{ with $script.js }}
