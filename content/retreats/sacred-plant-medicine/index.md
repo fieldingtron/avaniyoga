@@ -2,11 +2,12 @@
 title: "Sacred Plant Medicine Retreat"
 date: 2018-03-02T17:05:11-03:00
 dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
-price: "1500"
+price: "1300"
 duration: "6 Days, 5 Nights"
 bulletpoints: [All Inclusive, Daily Yoga Classes, Ayahuasca Medicine, "Local, Organic Meals"]
 image: yogaAndMeditation
 draft: false
+stripe: true
 resources:
 - src: "yogaAndMeditation1.jpg"
   title: "Yummy Cupcake"
@@ -34,26 +35,23 @@ Also we be sharing with wonderful light beings, doctors of plants, and the soul,
 
 ### Ayahuasca Ceremony
 * Cleaning energy Ceremony, connecting with the Sacred  Elements
-* 2 Guided Wachuma Ceremonies in power places 
+* 3 Guided Ayahuasca Ceremonies  
 * Guided Meditations and Shamanic breathwork
 * Awakening the sacred body through Yoga, Magic passes and Tai Chi
 * Meditation Concert and Ecstatic Dance with Live Music
-* lodging in the Sacred Valley
+* Lodging in the Sacred Valley
 * Transfers from airports and hotels
 
 ### RETREAT HIGHLIGHTS
 
 * Daily Yoga classes
-* Daily Adventures and Ceremonies in Ancient Sacred Temples
+* Ayahuasca Ceremonies Every Second Day
 * Cleaning and Clearing the Energy Body through  breath journeys and crystal sound healing 
 * Awaken dormant creativity and commune with your guides.
-* Live Music meditations, Concert, FIre Ceremonie and Spirit Journeys
-* Active Meditations and ecstatic dance with live music
+* Ecstatic dance with live music
 * Relating and Working with the 4 Sacred Elements 
 * Toltec Wisdom: Recapitulation, Dreaming, Magic Passes
- * Hooponopono and Tonglen; learning forgiveness and sharing unconditional love
-* Singing: Opening the natural voice and Creativity through Primal Clay and Vision Painting
-* Daily Yoga class 
+
 
 
 
@@ -70,66 +68,58 @@ Also we be sharing with wonderful light beings, doctors of plants, and the soul,
 
 more info here 
 
-Fire Ceremony
-Fire is the element of release and transformation. Fire holds a tremendous power – when we connect with conscious intent, the effects will be immediate. During the ritual we will connect with Tobacco, a master plant known by all native traditions as an amplifier of prayers. (There will be no smoking. Tobacco can be used in many different ways).
+ 
 
-
-### Mystical Breathwork Retreat Schedule
-
-
-
-
-
-#### SAN PEDRO/ WACHUMA RETREATS PROGRAM:
+#### Sacred Plant Medicine Retreat Program:
 
 #### DAY 1:  
 * 3pm:  Arrival, taking time to rest an connect with the place.
 * 4 pm: Opening Circle, sharing intention for the group
 * 5pm:  Chakra Breathing meditation
-* 7pm:  freetime
+* 7pm:  Freetime
 * 9:30pm:  Healing Music and guided meditation
-* 10:30pm Sleep 
 
 #### DAY 2:
 * 8 am: Yoga/Tai Chi/ Magic Passes
 * 9:30 am Light Breakfast
-* 11-12 Rest; consider personal intention; Silent time
-* 12 noon: Travel to ceremony site
-* 1 pm:  Wachuma Ceremony
-* 9 pm:  Return/ Dinner
+* 11-12 Rest; Group meeting consider personal about Ayahuasca, Ceremonies, and Intentions
+* 1 pm:  Light Lunch
+* 5 pm: Floral Bath
+* 6 pm: Pre Ceremony Hatha Yoga
+* 8 pm: First Ayahuasca Ceremony
 * 10 pm: Closing Ritual/ Sleep
 
 #### DAY 3:
 * 8 am: Yoga/Tai Chi/ Magic Passes
 * 9:30 am: Breakfast
-* 11-1 Massage session
-* 1 pm: Nature Ritual /Saluting the Apus
-* 2 pm: Lunch
-* 4pm: Temple Exploration/ Ceremony
-* 7 pm: Freetime
-* 8 pm: Dinner
-* 9:30 Sound Healing with Live Music
-* 10:30 Sleep
+* 11:00 am  guided Meditation 
+* 1:00 pm Lunch
+* 2pm  Individual consulation with the Shaman
+* 4pm guided meditation and group talk
+* 6pm Dinner
+* 7pm Mantra chanting with Deva Kant
+
 
 #### DAY 4:
 * 8 am: Yoga/Tai Chi/ Magic Passes
-* 11 am:  Mystic Breath Session
-* 1 pm: Nature Ritual/ Sacred Elements
-* 2 pm: Lunch
-* 4 pm: Alchemical Meditations/ Movement Meditations
-* 6 pm: Opening the Natural Voice
-* 8 pm: Dinner
-* 9:30 pm Concert Meditation Music
-* 11 pm Sleep
+* 9:30 am Light Breakfast
+* 11-12 Massage Session
+* 1 pm: Light Lunch
+* 4 pm: Floral Bath
+* 7 pm: Pre Ceremony Hatha Yoga
+* 8 pm: Second Ayahuasca Ceremony
+
 
 #### DAY 5:
 * 8 am: Yoga/Tai Chi/ Magic Passes
 * 9:30 am Light Breakfast
 * 11-12 Rest; consider personal intention; Silent time
-* 12 noon: Travel to ceremony site
-* 1 pm:  Wachuma Ceremony
-* 9 pm:  Return/ Dinner
-* 10 pm: Closing Ritual/ Sleep
+* 1 pm: Nature Ritual/ Sacred Elements
+* 2 pm: Lunch
+* 4 pm: Movement Meditations and group sharing
+* 6 pm: Dinner
+* 9:30 pm Concert Meditation Music with Deva Kant
+
 
 #### DAY 6:
 * 8 am: Yoga/ Tai Chi/ Magic Passes

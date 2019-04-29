@@ -1,13 +1,13 @@
 //import uuid from 'uuid/v4';
 
 
-const amount = document.getElementById('price').textContent * 100;
+const amount = document.getElementById('price').textContent * 100 /2;
 console.log("ammount="+amount);
 const $messageBox = document.getElementById('messageBox');
 const $button = document.getElementById('buttonz');
 
 function resetButtonText() {
-  $button.innerHTML = 'Click to Buy! <strong>'+amount+'</strong>';
+  $button.innerHTML = 'Make A Deposit';
 }
 
 function create_UUID(){
@@ -22,7 +22,7 @@ function create_UUID(){
 
 const handler = StripeCheckout.configure({
   key: "pk_test_hmuxAR4Gp8zFUrhZbbou8wPx",
-  image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+  image: '/images/logo.png',
   locale: 'auto',
   closed: function () {
     resetButtonText();
@@ -65,6 +65,6 @@ $button.addEventListener('click', () => {
   handler.open({
     amount,
     name: 'Mystic Retreats',
-    description: 'A Fantastic New Widget'
+    description: 'Retreat Deposit Payment'
   });
 });

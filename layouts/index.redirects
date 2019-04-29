@@ -4,3 +4,4 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
+/.netlify/functions/hello-world/hello-world.js /hello 200

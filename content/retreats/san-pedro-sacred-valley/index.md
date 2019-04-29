@@ -2,11 +2,12 @@
 title: "San Pedro Sacred Valley Retreat"
 date: 2018-03-02T17:05:11-03:00
 dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
-price: "$1800 USD"
+price: "1500"
 duration: "6 Days, 5 Nights"
 bulletpoints: [All Inclusive, Daily Yoga Classes, Mystical Breathing, "Local, Organic Meals"]
 image: yogaAndMeditation
 draft: false
+stripe: true
 resources:
 - src: "yogaAndMeditation1.jpg"
   title: "Yummy Cupcake"

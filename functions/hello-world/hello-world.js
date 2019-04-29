@@ -1,7 +1,13 @@
 require('dotenv').config();
+var oneLinerJoke = require('one-liner-joke');
+var merge = require('easy-pdf-merge');
+
 
 async function hello() {
-  return Promise.resolve("Hello, World :"+process.env.STRIPE_SECRET_KEY);
+  var text = "Hello, World :"+process.env.STRIPE_SECRET_KEY + oneLinerJoke.getRandomJoke().body +" text"
+  var text =  oneLinerJoke.getRandomJoke().body;
+
+  return Promise.resolve(text);
 }
 
 exports.handler = async function(event, context) {
