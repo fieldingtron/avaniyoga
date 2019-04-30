@@ -1,5 +1,7 @@
 //import uuid from 'uuid/v4';
 
+const url = "http://localhost:8888"
+const url = "https://mysticretreats.netlify.com"
 
 const amount = document.getElementById('price').textContent * 100 /2;
 console.log("ammount="+amount);
@@ -29,7 +31,7 @@ const handler = StripeCheckout.configure({
   },
   token: function(token) {
 
-    fetch("https://mysticretreats.netlify.com/.netlify/functions/stripe-charge/stripe-charge", {
+    fetch( url+"/.netlify/functions/stripe-charge/stripe-charge", {
       method: 'POST',
       body: JSON.stringify({
         token,

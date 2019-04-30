@@ -5,7 +5,7 @@ var merge = require('easy-pdf-merge');
 
 async function hello() {
   var text = "Hello, World :"+process.env.STRIPE_SECRET_KEY + oneLinerJoke.getRandomJoke().body +" text"
-  var text =  oneLinerJoke.getRandomJoke().body;
+  //var text =  oneLinerJoke.getRandomJoke().body;
 
   return Promise.resolve(text);
 }
