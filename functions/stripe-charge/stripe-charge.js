@@ -2,6 +2,7 @@
 require('dotenv').config();
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+console.log( "the secret key is " + process.env.STRIPE_SECRET_KEY )
 
 const statusCode = 200;
 const headers = {
