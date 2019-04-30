@@ -16,6 +16,7 @@
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "stripe": "^6.28.0"
   }
 }
