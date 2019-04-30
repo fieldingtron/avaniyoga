@@ -1,6 +1,6 @@
 //import uuid from 'uuid/v4';
 
-const url = "http://localhost:8888"
+//const url = "http://localhost:8888"
 const url = "https://mysticretreats.netlify.com"
 
 const amount = document.getElementById('price').textContent * 100 /2;
