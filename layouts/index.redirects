@@ -4,4 +4,5 @@
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
-/.netlify/functions/hello-world/hello-world.js /hello 200
+/hi /.netlify/functions/hello-world/hello-world.js 200
+//localhost:1313/* //localhost:8888/:splat 200

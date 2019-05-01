@@ -1,8 +1,10 @@
 // with thanks https://github.com/alexmacarthur/netlify-lambda-function-example/blob/68a0cdc05e201d68fe80b0926b0af7ff88f15802/lambda-src/purchase.js
 require('dotenv').config();
 
+console.log("trying to load stripe module");
+
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
-console.log( "the secret key is " + process.env.STRIPE_SECRET_KEY )
+console.log( "the secret key is " + process.env.STRIPE_SECRET_KEY );
 
 const statusCode = 200;
 const headers = {

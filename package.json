@@ -2,7 +2,7 @@
   "name": "atlas",
   "private": true,
   "scripts": {
-    "build": "hugo",
+    "build": "hugo --minify",
     "build:preview": "hugo --buildFuture",
     "start": "hugo server",
     "server": "hugo server",
