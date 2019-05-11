@@ -6,7 +6,7 @@
     <!--Indicators-->
     <ol class="carousel-indicators">
         {{ $count := 0}}
-        {{ range  .Params.photos}}    
+        {{ range  .Params.gallery}}    
             {{ if eq $count 0}}
             <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
             {{else}}
@@ -19,7 +19,7 @@
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
         {{ $count := 0}}
-        {{ range  .Params.photos}}    
+        {{ range  .Params.gallery}}    
       <!-- slide-->
             {{ if eq $count 0}}
                 <div class="carousel-item active">
@@ -27,7 +27,7 @@
                 <div class="carousel-item">
             {{end}}
             {{$count = (add $count  1) }}
-        <div class="view" style="background-image: url('{{.image}}'); background-repeat: no-repeat; background-size: cover;">
+        <div class="view" style="background-image: url('{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_1080,w_1920{{.}}'); background-repeat: no-repeat; background-size: cover;">
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
             <!-- Content -->
