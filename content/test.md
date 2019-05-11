@@ -1,8 +1,18 @@
 ---
-title: 'tech'
+title: 'test'
 date: 2018-11-14T19:02:50-07:00
 draft: false
-url: "/dddtechd"
+layout: test
+photos:
+- name: Andrea Contreras
+  title: Kinder PELLIN AYE
+  image: "/v1557347797/samples/people/smiling-man.jpg"
+- name: Maria Jose Mittersteiner
+  title: Kinder PELLIN AYE
+  image: "/v1557347796/samples/people/kitchen-bar.jpg"
+- name: Maria Jose Mittersteiner
+  title: Kinder PELLIN AYE
+  image: "/v1557347796/samples/people/kitchen-bar2.jpg"
 ---
 
 # [Victor Hugo](https://github.com/netlify-templates/victor-hugo)

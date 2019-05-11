@@ -4,22 +4,17 @@ robotfont {
     font-family: $body-font;
 }
 
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
 html,
 body,
-#intro {
-    height: 100%;
-}
-#intro {
-  height: 100%;
-}
+.view {
+  height: 100%; }
 
-#intro {
-    /* background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
-    background: url("https://avaniyogaretreats.com/wp-content/uploads/2016/12/14991176_1393396440678904_4078755826585387641_o.jpg")no-repeat center center fixed; */
-    background: url("/images/main-macchu-pichu.jpg")no-repeat center center fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }

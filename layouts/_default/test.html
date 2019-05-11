@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ $section := .Site.GetPage "section" .Section }}
+<article class="content">
+    <main>
+summary
+  {{ $count := 1}}
+  {{ range  .Params.photos}}    
+    {{ if eq $count 1}}
+      one 
+    {{end}}
+    {{$count}} :   {{.image}}
+    {{$count = (add $count  1) }}
+  {{ end }}
+
+</main>
+</article>
+{{ end }}

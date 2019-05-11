@@ -1,25 +1,8 @@
 {{ define "main" }}
-<!--Mask-->
-<div id="intro" class="view">  
 
-    <div class="mask rgba-black-strong">
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-md-10">
-                    <!-- Heading -->
-                    <h2 class="display-5 font-weight-bold white-text pt-5 mb-2">Recharge and Heal</h2>
-                    <!-- Divider -->
-                    <hr class="hr-light">
-                    <!-- Description -->
-                    <h4 class="white-text my-4"> Awaken to your greatest potential.</h4>
-                    <a href="#summary" type="button" class="btn btn-outline-white">View Upcoming Retreats<i
-                            class="fas fa-book ml-2"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/.Mask-->
+
+
+{{ partial "introcarousel.html" . }}
 
 <!--Main layout-->
 <main>
@@ -43,4 +26,4 @@
         {{ partial "contactus.html" . }}
     </div>
 </main>
-        {{ end }}
+{{ end }}
