@@ -1,4 +1,8 @@
 ---
 label: Home Page
 hide_body: true
-fields: []
+fields:
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
