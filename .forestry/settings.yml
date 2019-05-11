@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _index.md
   label: Main Page
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
