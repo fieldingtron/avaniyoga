@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: _index.md
-  label: Main Page
+  label: HomePage
 - type: directory
   path: content
   label: Pages
