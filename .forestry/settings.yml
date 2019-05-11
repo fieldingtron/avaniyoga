@@ -12,7 +12,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-  exclude: _index.md
 - type: directory
   path: content/retreats
   label: Retreats
