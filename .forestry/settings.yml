@@ -18,7 +18,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: avaniyoga
-public_path: https://res.cloudinary.com/dflomqzzs/image/upload/v1557499217
+public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
