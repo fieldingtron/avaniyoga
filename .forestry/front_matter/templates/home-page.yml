@@ -84,11 +84,11 @@ fields:
       required: false
     label: facebook page url
     description: something like https://www.facebook.com/devakantmusic
-  - name: instragram_url
+  - name: instagram_url
     type: text
     config:
       required: false
-    label: instragram url
+    label: instagram url
     description: something like https://www.facebook.com/mabel.araya1
   config:
     min: 
@@ -97,6 +97,26 @@ fields:
   label: team
 - name: testimonials
   type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: picture
+    type: file
+    config:
+      maxSize: 250
+    label: picture
+  - name: testimonial
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: testimonial
   config:
     min: 
     max: 
