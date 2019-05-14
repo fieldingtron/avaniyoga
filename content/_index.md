@@ -43,6 +43,12 @@ summary_intro2: Come play with us through song, chant, painting and primal clay,
   Sacred Plants and Spirit Journeys. 7 days 6 and nights in the magic lands of Peru,
   Brazil, and Chile. All meals, accommodations, and ground transport included
 team:
+- name: Deva Kant
+  title: MUSICIAN AND SOUND HEALER
+  blurb: Devakant is a mystic musician and artist, who has explored many pathways
+    of inner experience and sacred tradition in the world.
+  facebook_page_url: https://www.facebook.com/devakantmusic
+  instagram_url: https://www.devakant.com/
 - name: Soma Parvati
   title: Trip Leader
   facebook_page_url: https://www.facebook.com/mabel.araya1
