@@ -20,6 +20,15 @@ fields:
     schema:
       format: markdown
   label: summary intro
+- name: summary_intro2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary_intro2
 - name: summary_items
   type: field_group_list
   fields:
