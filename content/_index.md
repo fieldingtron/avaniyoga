@@ -15,6 +15,10 @@ summary_intro: 'Come for an unforgettable adventure to regenerate and energize y
   Yoga to open and strengthen the body: It is a multi-dimensional renewal of body,
   psyche, and spirit.'
 summary_items:
+- title: Healthy Meals
+  text: Vegan, vegetarian diets taking into account food intolerance. Buying from
+    local markets and organic produce.
+  picture: "/v1557865598/avaniyoga/vegetable-skewer-3317060_640.jpg"
 - title: Plant Medicine Diets
   text: Specialized Plant Medicines administered by shamanic experts with generations
     of training
