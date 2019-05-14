@@ -15,6 +15,10 @@ summary_intro: 'Come for an unforgettable adventure to regenerate and energize y
   Yoga to open and strengthen the body: It is a multi-dimensional renewal of body,
   psyche, and spirit.'
 summary_items:
+- title: Mystic Breathing
+  text: Leverage focused powerful deep breathing exercises to connect with your spirit
+    and alter your perception of consciousness
+  picture: "/v1557865699/avaniyoga/breath-work.jpg"
 - title: Connect With Nature
   text: Relax and Enjoy the natural delights. Peru is a beautiful place and you can
     relax and recharge easily here.
