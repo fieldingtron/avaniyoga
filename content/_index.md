@@ -15,6 +15,10 @@ summary_intro: 'Come for an unforgettable adventure to regenerate and energize y
   Yoga to open and strengthen the body: It is a multi-dimensional renewal of body,
   psyche, and spirit.'
 summary_items:
+- title: Connect With Nature
+  text: Relax and Enjoy the natural delights. Peru is a beautiful place and you can
+    relax and recharge easily here.
+  picture: "/v1557865653/avaniyoga/connect-with-nature.jpg"
 - title: Healthy Meals
   text: Vegan, vegetarian diets taking into account food intolerance. Buying from
     local markets and organic produce.
