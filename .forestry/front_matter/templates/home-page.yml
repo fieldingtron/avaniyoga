@@ -6,6 +6,47 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+- name: summary_title
+  type: text
+  config:
+    required: false
+  label: summary title
+- name: summary_intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary intro
+- name: summary_items
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: text
+  - name: picture
+    type: file
+    config:
+      maxSize: 250
+    label: picture
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: summary_items
 pages:
 - content/_index.md
 - content/_index.md
