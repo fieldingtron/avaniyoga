@@ -20,6 +20,9 @@ summary_items:
   picture: "/v1557848404/avaniyoga/happy-dancing.jpg"
   text: Everything is taken care of. Relax and fully take advantage of your time.
     We handle the details.
+summary_intro2: ''
+team: []
+testimonials: []
 
 ---
 testing 123
