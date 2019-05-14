@@ -42,7 +42,13 @@ summary_intro2: Come play with us through song, chant, painting and primal clay,
   and liberating the child within. Enter into the magic world of Dream-time through
   Sacred Plants and Spirit Journeys. 7 days 6 and nights in the magic lands of Peru,
   Brazil, and Chile. All meals, accommodations, and ground transport included
-team: []
+team:
+- name: Soma Parvati
+  title: Trip Leader
+  facebook_page_url: https://www.facebook.com/mabel.araya1
+  instagram_url: https://www.facebook.com/mabel.araya1
+  blurb: Soma Parvati is a sound healer, visionary, mother of two kids who has deeply
+    explored yoga, meditation and "alternative" healing therapies
 testimonials: []
 
 ---
