@@ -2,10 +2,9 @@
 title: Mystic Retreats in Peru
 date: '2018-11-15T02:02:50.000+00:00'
 gallery:
+- "/v1557499212/avaniyoga/Mahi__-165_Large_tsevqs.jpg"
 - "/v1557581250/avaniyoga/main-macchu-pichu.jpg"
 - "/v1557861204/avaniyoga/yoga-1994667_1280.jpg"
-- "/v1557499225/avaniyoga/Mahi__-164_Large_bkl4h5.jpg"
-- "/v1557499199/avaniyoga/Mahi__-167_Large_peiqqg.jpg"
 summary_title: Recharge and Reawaken with Mystic Retreats
 summary_intro: |-
   Come for an unforgettable adventure to regenerate and energize your body, mind, and soul. Sacred Rituals in powerful ancient temples, Deep emotional and psychic cleansing through breathwork journeys; shamanic wisdom and meditations from Peru, Mexico, Hawaii; Egyptian Alchemy to transform and awaken consciousness; Yoga to open and strengthen the body: It is a multi-dimensional renewal of body, pysche, and spirit.
