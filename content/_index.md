@@ -15,6 +15,10 @@ summary_intro: 'Come for an unforgettable adventure to regenerate and energize y
   Yoga to open and strengthen the body: It is a multi-dimensional renewal of body,
   psyche, and spirit.'
 summary_items:
+- title: Plant Medicine Diets
+  text: Specialized Plant Medicines administered by shamanic experts with generations
+    of training
+  picture: "/v1557865482/avaniyoga/plant-medicine.jpg"
 - title: Yoga Classes
   text: Daily Yoga and fitness classes to help you strengthen your body and mind.
   picture: "/v1557848468/avaniyoga/yoga-classes-900x600.jpg"
