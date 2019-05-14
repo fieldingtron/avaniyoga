@@ -56,6 +56,52 @@ fields:
     max: 
     labelField: 
   label: summary_items
+- name: team
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: blurb
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: blurb
+  - name: facebook_page_url
+    type: text
+    config:
+      required: false
+    label: facebook page url
+    description: something like https://www.facebook.com/devakantmusic
+  - name: instragram_url
+    type: text
+    config:
+      required: false
+    label: instragram url
+    description: something like https://www.facebook.com/mabel.araya1
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: team
+- name: testimonials
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: testimonials
 pages:
 - content/_index.md
 - content/_index.md
