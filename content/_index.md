@@ -2,6 +2,8 @@
 title: Mystic Retreats in Peru
 date: '2018-11-15T02:02:50.000+00:00'
 gallery:
+- "/v1557861922/avaniyoga/paco-1694024_1280.jpg"
+- "/v1557862037/avaniyoga/peru-143875_1920.jpg"
 - "/v1557499212/avaniyoga/Mahi__-165_Large_tsevqs.jpg"
 - "/v1557581250/avaniyoga/main-macchu-pichu.jpg"
 - "/v1557861204/avaniyoga/yoga-1994667_1280.jpg"
