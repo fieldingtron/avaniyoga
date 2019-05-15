@@ -13,7 +13,13 @@ summary_intro: 'Come for an unforgettable adventure to regenerate and energize y
   and psychic cleansing through breath-work journeys; shamanic wisdom and meditations
   from Peru, Mexico, Hawaii; Egyptian Alchemy to transform and awaken consciousness;
   Yoga to open and strengthen the body: It is a multi-dimensional renewal of body,
-  psyche, and spirit.'
+  psyche, and spirit. 
+  
+
+  Come play with us through song, chant, painting and primal clay, awakening
+  and liberating the child within. Enter into the magic world of Dream-time through
+  Sacred Plants and Spirit Journeys. 7 days 6 and nights in the magic lands of Peru,
+  Brazil, and Chile. All meals, accommodations, and ground transport included.'
 summary_items:
 - title: All Inclusive
   picture: "/v1557848404/avaniyoga/happy-dancing.jpg"
@@ -38,13 +44,9 @@ summary_items:
   text: Leverage focused powerful deep breathing exercises to connect with your spirit
     and alter your perception of consciousness
   picture: "/v1557865699/avaniyoga/breath-work.jpg"
-summary_intro2: Come play with us through song, chant, painting and primal clay, awakening
-  and liberating the child within. Enter into the magic world of Dream-time through
-  Sacred Plants and Spirit Journeys. 7 days 6 and nights in the magic lands of Peru,
-  Brazil, and Chile. All meals, accommodations, and ground transport included
 team:
 - name: Deva Kant
-  title: MUSICIAN AND SOUND HEALER
+  title: Musician and Sound Healer
   blurb: Devakant is a mystic musician and artist, who has explored many pathways
     of inner experience and sacred tradition in the world.
   facebook_page_url: https://www.facebook.com/devakantmusic
