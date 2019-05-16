@@ -6,35 +6,33 @@
 
                 <h1 class="h3" id="retreat-name">{{ .Title }}</h1>
                 {{ $numberz:= 1}}
-                <div id="Yoga{{$numberz}}" class="carousel slide my-2" data-ride="carousel" data-interval="2000">
-                    <!--Indicators for Carousel-->
-                    <ol class="carousel-indicators">
-                        {{ $.Scratch.Set "count" 0 }}
-                        {{ with .Resources.ByType "image" }}
-                        {{ range . }}
-                        {{ $.Scratch.Add "count" 1 }}
-                        {{ if eq ($.Scratch.Get "count") 1}}
-                        <li data-target="#Yoga{{$numberz}}" class="active" data-slide-to="{{$.Scratch.Get "count"}}">
-                        </li>
+                <div id="carousel-retreat" class="carousel slide my-2" data-ride="carousel" data-interval="4000">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    {{ $count := 0}}
+                    {{ range  .Params.gallery}}    
+                        {{ if eq $count 0}}
+                        <li data-target="carousel-retreat" data-slide-to="0" class="active"></li>
                         {{else}}
-                        <li data-target="#Yoga{{$numberz}}" data-slide-to="{{$.Scratch.Get "count"}}"></li>
+                        <li data-target="carousel-retreat" data-slide-to="{{$count}}"></li>
                         {{end}}
-                        {{ end }}
-                        {{ end }}
-                    </ol>
+                        {{$count = (add $count  1) }}
+                    {{ end }}     
+                </ol>
+                <!--/.Indicators-->
                     <!-- SLIDES / Images-->
                     <div class="carousel-inner">
-                        {{ $.Scratch.Set "count" 0 }}
-                        {{ with .Resources.ByType "image" }}
-                        {{ range . }}
-                        {{ $.Scratch.Add "count" 1 }}
-                        {{ if eq ($.Scratch.Get "count") 1}}
-                        <div class="carousel-item active">
-                            {{else}}
-                            <div class="carousel-item">
-                                {{end}}
-                                {{ $thumbnail := .Resize "600x" }}
-                                <img class="d-block w-100" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Name }}" />
+                        {{ $count := 0}}
+                        {{ range  .Params.gallery}}    
+                        <!-- slide-->
+                        {{ if eq $count 0}}
+                            <div class="carousel-item active h-100">
+                        {{else}}
+                            <div class="carousel-item h-100">
+                        {{end}}
+                        {{$count = (add $count  1) }}
+
+                                <img class="d-block w-100" src="{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_1080,w_1920{{.}}" alt="{{ .Name }}" />
 
                                 <!--  {{ .Title }}  {{ .Name }} {{ .Params.credits }} -->
                                 <!-- <div class="carousel-caption d-none d-md-block">
@@ -45,16 +43,15 @@
                             {{ end }}
 
                             <!-- Left / Right Controls-->
-                            <a class="carousel-control-prev" href="#Yoga{{$numberz}}" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="carousel-retreat" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#Yoga{{$numberz}}" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="carousel-retreat" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
 
-                            {{ end }}
                         </div>
                     </div>
 
@@ -112,7 +109,6 @@
                                     <!-- <h3 class="h5 text-center py-2">Testimonials</h3> -->
 
 
-                                    <!-- <button id="buttonz">Click to Buy! <strong>${{.Params.price}}</strong></button> -->
                                    
 
 
