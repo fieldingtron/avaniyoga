@@ -1,0 +1,28 @@
+---
+label: Retreat
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: dates
+  label: dates
+- type: text
+  name: price
+  label: price
+- type: datetime
+  name: duration
+  label: duration
+- type: list
+  name: bulletpoints
+  label: bulletpoints
+- type: boolean
+  name: stripe
+  label: stripe
+- type: textarea
+  name: summary
+  label: summary
