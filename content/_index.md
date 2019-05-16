@@ -50,6 +50,9 @@ team:
   blurb: Soma Parvati is a sound healer, visionary, mother of two kids who has deeply
     explored yoga, meditation and "alternative" healing therapies
 testimonials:
+- name: SNoopDog
+  picture: "/v1557865482/avaniyoga/plant-medicine.jpg"
+  testimonial: bow wow wow
 - picture: "/v1558043912/avaniyoga/diana-p.jpg"
   testimonial: " I have traveled to over sixty countries and this has been the best.
     I left with a heavy heart since I felt I made so many dear friends."
