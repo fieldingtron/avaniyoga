@@ -5,28 +5,23 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
+- type: textarea
+  name: summary
+  label: summary
 - type: list
   name: dates
   label: dates
 - type: text
   name: price
   label: price
-- type: datetime
-  name: duration
+- name: duration
+  type: text
+  config:
+    required: false
   label: duration
 - type: list
   name: bulletpoints
   label: bulletpoints
-- type: boolean
-  name: stripe
-  label: stripe
-  hidden: true
-- type: textarea
-  name: summary
-  label: summary
 - name: featured_image
   type: file
   config:
@@ -36,3 +31,7 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+- type: boolean
+  name: stripe
+  label: stripe
+  hidden: true
