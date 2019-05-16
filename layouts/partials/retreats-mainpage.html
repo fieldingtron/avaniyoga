@@ -5,17 +5,19 @@
         <!-- Section description -->
         <p class="lead grey-text w-responsive mx-auto mb-5">Our retreats change and transform lives. While all of our retreats are rejuvenating and fun, 
             they also offer in depth immersion in a healthy lifestyle .</p>
-
+           
+            
             <!-- Card deck -->
             <div class="card-deck">
-
+                    {{ range where .Site.RegularPages "Section" "in" (slice "retreats") }}
+            <!-- {{ . }}  {{ .Title}} -->
                 <!-- Card -->
                 <div class="card mb-4">
-
+                       
                     <!--Card image-->
                     <div class="view overlay">
-                        <img class="card-img-top" src="/images/happy-dancing.jpg"
-                            alt="Breathwork Retreat in Peru">
+                        <img class="card-img-top" src="{{$.Site.Params.cloudinary_url }}{{.Params.picture}}"
+                            alt="{{.Title}}">
                         <a>
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -25,70 +27,19 @@
                     <div class="card-body">
 
                         <!--Title-->
-                        <h4 class="card-title">Breathwork Mystic Retreat</h4>
+                        <h4 class="card-title">{{.Title}}</h4>
                         <!--Text-->
-                        <p class="card-text">A week of Yoga, healing foods and Breathwork in beautiful Peru. </p>
+                        <p class="card-text">{{.Summary}} </p>
                         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <a href="/retreats/breathwork-mystic-peru/"   class="btn btn-light-blue btn-md">Read more</a>
+                        <a href="{{.Permalink}}"   class="btn btn-light-blue btn-md">{{T "Read more"}}</a>
 
                     </div>
 
                 </div>
                 <!-- Card -->
 
-                <!-- Card -->
-                <div class="card mb-4">
-
-                    <!--Card image-->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="/images/sacred-plant-medicine.jpg"
-                            alt="Sacred Plant Medicine">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!--Card content-->
-                    <div class="card-body">
-
-                        <!--Title-->
-                        <h4 class="card-title">Sacred Plant Medicine</h4>
-                        <!--Text-->
-                        <p class="card-text">A week of Yoga, cleansing diets and sacred plant medicine by Shipibo Shamans. </p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <a href="/retreats/sacred-plant-medicine/"   class="btn btn-light-blue btn-md">Read more</a>
-
-                    </div>
-
-                </div>
-                <!-- Card -->
-
-                <!-- Card -->
-                <div class="card mb-4">
-
-                    <!--Card image-->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="/images/san-pedro-sacred-valley.jpg"
-                            alt="Card image cap">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!--Card content-->
-                    <div class="card-body">
-
-                        <!--Title-->
-                        <h4 class="card-title">San Pedro Sacred Valley</h4>
-                        <!--Text-->
-                        <p class="card-text">A week of Yoga, Nature and San Pedro Ceremonies in the Sacred Valley of Peru.</p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <a href="/retreats/san-pedro-sacred-valley/"   class="btn btn-light-blue btn-md">Read more</a>
-
-                    </div>
-
-                </div>
-                <!-- Card -->
+                {{ end }}
+           
 
             </div>
             <!-- Card deck -->

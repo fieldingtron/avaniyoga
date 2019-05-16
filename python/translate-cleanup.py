@@ -116,11 +116,12 @@ for item in sortedToml:
        englishItems.append(item.replace("_"," "))
 englishItems = sorted(list(set(englishItems)))
 
-translations = translator.translate(englishItems, dest='es')
+if lang != "en":
+    translations = translator.translate(englishItems, dest=lang)
 #translations = translator.translate(["Price","Pricing"], dest='es')
+    for translation in translations:
+        print(translation.origin, ' -> ', translation.text)
 
-for translation in translations:
-   print(translation.origin, ' -> ', translation.text)
 
 for item in sortedToml:
     if "gtrans" not in sortedToml[item]:

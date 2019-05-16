@@ -5,24 +5,12 @@ dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
 price: "1500"
 duration: "6 Days, 5 Nights"
 bulletpoints: [All Inclusive, Daily Yoga Classes, Mystical Breathing, "Local, Organic Meals"]
-image: yogaAndMeditation
 draft: false
 stripe: true
-resources:
-- src: "yogaAndMeditation1.jpg"
-  title: "Yummy Cupcake"
-  name: cupcake-1
-  params: 
-    credits: "Very Good Meditation"
-- src: "*2.jpg"
-  title: "Shiny Glaze"
-- src: "*.jpg"
-  params: 
-    credits: "Yoga Yoga Yoga!"
+summary: The Wachuma Ceremony is a real test revealing our capacity for courage, devotion, commitment, faith and surrender. We wiill experience a positive transformation, with the ceremony.
 ---
-A 6 day  
-
 The Wachuma Ceremony is a real test revealing our capacity for courage, devotion, commitment, faith and surrender. We wiill experience a positive transformation, giving us the capacity to recognize our limitations, and our essence, which is limitlessness. It awakens a connection on new levels of mind, body and spirit by letting go of emotional baggage and physical toxins , revealing your most authentic empowered self to the world. Let go of fear and ego. and discover a deep personal peace and connection to your heart and mother earth.
+
 Special care is given to each participant. The energetic fields of the sacred places will be used for healing, and in the sacred pilgrimage to reach the Wak’a, or Sacred Stone, in faith it will transform us, heal us, and teach us how to perfect ourselves in service to all beings. The whole pilgrimage becomes one prayer, and we offer our totality with our feet and hands, with our breath, and with our heartbeat.
 
 ### Mamacoca Ceremony

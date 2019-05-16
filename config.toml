@@ -6,7 +6,20 @@ title = "Mystic Retreats"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Mystical Retreats"
+    weight = 1
+    [languages.en.params]
+      linkedin = "https://linkedin.com/whoever"
+  [languages.es]
+    languageName = "Espanol"
+    title = "Retiros Mysticos"
+    weight = 2
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything

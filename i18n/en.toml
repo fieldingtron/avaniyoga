@@ -1,3 +1,9 @@
+["Read more"]
+# file = "retreats-mainpage.html"
+other = "Read more"
+# english = "Read more"
+# gtrans = "Lee mas"
+
 [Testimonials]
 # file = "testimonials.html"
 other = "Testimonials"

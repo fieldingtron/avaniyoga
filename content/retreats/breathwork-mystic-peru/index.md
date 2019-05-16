@@ -5,20 +5,8 @@ dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
 price: "1500"
 duration: "6 Days, 5 Nights"
 bulletpoints: [All Inclusive, Daily Yoga Classes, Mystical Breathing, "Local, Organic Meals"]
-image: yogaAndMeditation
 stripe: true
-draft: false
-resources:
-- src: "yogaAndMeditation1.jpg"
-  title: "Yummy Cupcake"
-  name: cupcake-1
-  params: 
-    credits: "Very Good Meditation"
-- src: "*2.jpg"
-  title: "Shiny Glaze"
-- src: "*.jpg"
-  params: 
-    credits: "Yoga Yoga Yoga!"
+summary: A 6 day workshop, the use of breathing techniques, the release of emotions and the healing with voice and live music to open the inner centers, training a contact with a deep place of peace and inner silence.
 ---
 A 6 day workshop, the use of breathing techniques, the release of emotions and the healing with voice and live music to open the inner centers, training a contact with a deep place of peace and inner silence.
 

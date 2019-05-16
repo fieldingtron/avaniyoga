@@ -5,20 +5,9 @@ dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
 price: "1300"
 duration: "6 Days, 5 Nights"
 bulletpoints: [All Inclusive, Daily Yoga Classes, Ayahuasca Medicine, "Local, Organic Meals"]
-image: yogaAndMeditation
 draft: false
 stripe: true
-resources:
-- src: "yogaAndMeditation1.jpg"
-  title: "Yummy Cupcake"
-  name: cupcake-1
-  params: 
-    credits: "Very Good Meditation"
-- src: "*2.jpg"
-  title: "Shiny Glaze"
-- src: "*.jpg"
-  params: 
-    credits: "Yoga Yoga Yoga!"
+summary: This retreat is designed to connect with the soul of nature, feel the awakening of the inner divinity. Working to Let go of fear, discovering true  peace and connection to your heart and to the Cosmos.
 ---
 This retreat is designed to connect with the soul of nature, feel the awakening of the inner divinity.Working to Let go of fear, discovering true  peace and connection to your heart and to the Cosmos. in a process with contribute to  Releasing  all tension and negativity from the mental and emotional bodies, illuminating one's path, and restoring spiritual vision.
 	
