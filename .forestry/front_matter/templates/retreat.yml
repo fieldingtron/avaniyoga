@@ -23,6 +23,16 @@ fields:
 - type: boolean
   name: stripe
   label: stripe
+  hidden: true
 - type: textarea
   name: summary
   label: summary
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
