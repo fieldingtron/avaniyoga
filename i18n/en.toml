@@ -1,11 +1,11 @@
 ["Read more"]
-# file = "retreats-mainpage.html"
+file = "retreats-mainpage.html"
 other = "Read more"
-# english = "Read more"
-# gtrans = "Lee mas"
+english = "Read more"
+gtrans = "Lee mas"
 
 [Testimonials]
-# file = "testimonials.html"
+file = "testimonials.html"
 other = "Testimonials"
-# english = "Testimonials"
-# gtrans = "Testimonios"
+english = "Testimonials"
+gtrans = "Testimonios"
