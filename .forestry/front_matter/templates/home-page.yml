@@ -86,11 +86,6 @@ fields:
     max: 
     labelField: 
   label: team
-- name: testimonial_intro
-  type: text
-  config:
-    required: false
-  label: testimonial intro
 - name: testimonials
   type: field_group_list
   fields:
@@ -118,6 +113,15 @@ fields:
     max: 
     labelField: 
   label: testimonials
+- name: testimonial_intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: testimonial intro
 pages:
 - content/english/_index.md
 - content/english/_index.md
