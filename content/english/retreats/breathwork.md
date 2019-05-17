@@ -16,7 +16,7 @@ stripe: true
 summary: A 6 day workshop, the use of breathing techniques, the release of emotions
   and the healing with voice and live music to open the inner centers, training a
   contact with a deep place of peace and inner silence.
-featured_image: "/v1557605844/avaniyoga/77.jpg"
+featured_image: "/v1557865699/avaniyoga/breath-work.jpg"
 gallery:
 - "/v1557499216/avaniyoga/Mahi__-160_Large_f17drr.jpg"
 - "/v1557499209/avaniyoga/Mahi__-152_Large_unrkog.jpg"
