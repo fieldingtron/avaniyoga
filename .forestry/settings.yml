@@ -12,11 +12,6 @@ sections:
   label: English
   create: all
   match: "**/*"
-- type: directory
-  path: content/spanish
-  label: Spanish
-  create: all
-  match: "**/*"
 upload_dir: avaniyoga
 public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
