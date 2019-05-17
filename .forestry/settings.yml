@@ -9,11 +9,22 @@ sections:
   label: English Homepage
 - type: directory
   path: content/english/retreats
-  label: English
+  label: English Retreats
   create: documents
   match: "**/*"
   templates:
   - retreat
+- type: directory
+  path: content/spanish/retreats
+  label: Spanish Homepage
+  create: documents
+  match: "**/*"
+  templates:
+  - retreat
+- type: document
+  path: content/spanish/_index.md
+  label: Spanish Homepage
+  match: "**/*"
 upload_dir: avaniyoga
 public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
