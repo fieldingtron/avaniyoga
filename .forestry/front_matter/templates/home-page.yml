@@ -86,6 +86,11 @@ fields:
     max: 
     labelField: 
   label: team
+- name: testimonial_intro
+  type: text
+  config:
+    required: false
+  label: testimonial intro
 - name: testimonials
   type: field_group_list
   fields:
