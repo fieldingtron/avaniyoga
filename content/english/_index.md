@@ -50,9 +50,10 @@ team:
   blurb: Soma Parvati is a sound healer, visionary, mother of two kids who has deeply
     explored yoga, meditation and "alternative" healing therapies
 testimonials:
-- name: ''
-  picture: ''
-  testimonial: ''
+- name: Kathy C
+  picture: "/v1558088104/avaniyoga/kathy-c.jpg"
+  testimonial: Soma has such a beautiful energy. She took us on great hikes, shared
+    her knowledge of holistic healing along with a daily lesson.
 - name: Diana P
   picture: "/v1558043912/avaniyoga/diana-p.jpg"
   testimonial: "                  I have traveled to over sixty countries and this
