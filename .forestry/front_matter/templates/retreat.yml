@@ -36,4 +36,5 @@ fields:
   label: stripe
   hidden: true
 pages:
+- content/english/retreats/san-pedro.md
 - content/english/retreats/breathwork.md

@@ -1,13 +1,29 @@
 ---
-title: "San Pedro Sacred Valley Retreat"
-date: 2018-03-02T17:05:11-03:00
-dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
+title: San Pedro Sacred Valley Retreat
+date: '2018-03-02T20:05:11.000+00:00'
+dates:
+- July 14 - July 20
+- July 21 - July 27
+- July 28 - August 3
 price: "1500"
-duration: "6 Days, 5 Nights"
-bulletpoints: [All Inclusive, Daily Yoga Classes, Mystical Breathing, "Local, Organic Meals"]
-draft: false
+duration: 6 Days, 5 Nights
+bulletpoints:
+- All Inclusive
+- Daily Yoga Classes
+- Mystical Breathing
+- Local, Organic Meals
 stripe: true
-summary: The Wachuma Ceremony is a real test revealing our capacity for courage, devotion, commitment, faith and surrender. We wiill experience a positive transformation, with the ceremony.
+summary: The Wachuma Ceremony is a real test revealing our capacity for courage, devotion,
+  commitment, faith and surrender. We wiill experience a positive transformation,
+  with the ceremony.
+featured_image: "/v1558130176/avaniyoga/1image1.jpg"
+gallery:
+- "/v1558130258/avaniyoga/image9-1.jpg"
+- "/v1558130255/avaniyoga/image5-1.jpg"
+- "/v1558130253/avaniyoga/image4-1.jpg"
+- "/v1558130253/avaniyoga/image2-1.jpg"
+- "/v1558130250/avaniyoga/condorMountain.jpg"
+
 ---
 The Wachuma Ceremony is a real test revealing our capacity for courage, devotion, commitment, faith and surrender. We wiill experience a positive transformation, giving us the capacity to recognize our limitations, and our essence, which is limitlessness. It awakens a connection on new levels of mind, body and spirit by letting go of emotional baggage and physical toxins , revealing your most authentic empowered self to the world. Let go of fear and ego. and discover a deep personal peace and connection to your heart and mother earth.
 
