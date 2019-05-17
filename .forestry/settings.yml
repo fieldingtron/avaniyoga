@@ -14,16 +14,16 @@ sections:
   match: "**/*"
   templates:
   - retreat
+- type: document
+  path: content/spanish/_index.md
+  label: Spanish Homepage
 - type: directory
   path: content/spanish/retreats
-  label: Spanish Homepage
+  label: Spanish Retreats
   create: documents
   match: "**/*"
   templates:
   - retreat
-- type: document
-  path: content/spanish/_index.md
-  label: Spanish Homepage
 upload_dir: avaniyoga
 public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
