@@ -35,3 +35,5 @@ fields:
   name: stripe
   label: stripe
   hidden: true
+pages:
+- content/english/retreats/breathwork.md
