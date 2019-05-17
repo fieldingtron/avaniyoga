@@ -24,7 +24,6 @@ sections:
 - type: document
   path: content/spanish/_index.md
   label: Spanish Homepage
-  match: "**/*"
 upload_dir: avaniyoga
 public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
