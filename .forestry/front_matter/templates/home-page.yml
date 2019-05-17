@@ -113,3 +113,5 @@ fields:
     max: 
     labelField: 
   label: testimonials
+pages:
+- content/english/_index.md
