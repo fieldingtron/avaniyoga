@@ -25,12 +25,12 @@
                         {{ $count := 0}}
                         {{ range  .Params.gallery}}    
                         <!-- slide-->
-                        {{ if eq $count 0}}
-                            <div class="carousel-item active h-100">
-                        {{else}}
-                            <div class="carousel-item h-100">
-                        {{end}}
-                        {{$count = (add $count  1) }}
+                            {{ if eq $count 0}}
+                                <div class="carousel-item active h-100">
+                            {{else}}
+                                <div class="carousel-item h-100">
+                            {{end}}
+                            {{$count = (add $count  1) }}
 
                                 <img class="d-block w-100" src="{{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_1080,w_1920{{.}}" alt="{{ .Name }}" />
 
@@ -40,7 +40,7 @@
                                     <p class="tshadow1"> {{ .Params.credits }}</p>
                                 </div> -->
                             </div>
-                            {{ end }}
+                        {{ end }}
 
                             <!-- Left / Right Controls-->
                             <a class="carousel-control-prev" href="carousel-retreat" role="button" data-slide="prev">
@@ -61,11 +61,10 @@
 
                 </div>
                 <div class="col-md-4">
-                    {{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
 
                     <div class="card mt-4 sticky-top">
-                        <img class="card-img-top img-thumbnail img-fluid rounded" src="{{ $image.RelPermalink }}"
-                            class="img-fluid img-thumbnail" alt="{{ $image.Name }}" />
+                        <img class="card-img-top img-thumbnail img-fluid rounded" src=" HYPE"
+                            class="img-fluid img-thumbnail" alt=" " />
                         <div class="card-body">
                             <h5>{{ .Params.duration }}</h4>
                                 <h3 class="card-title"> $<span id="price">{{ .Params.price }}</span> USD</h3>
@@ -122,7 +121,7 @@
 
     {{ define "footer" }}
     {{ partial "footer" . }}
-    {{ $image := (.Resources.GetMatch ("*.jpg")).Resize "x250"}}
-    {{ partial "contact-modal.html" (dict "title" .Title "imgurl" $image.RelPermalink  "imgname" $image.Name "dates" .Params.dates "price" .Params.price "params" .Params)   }}
+    
+    {{ partial "contact-modal.html" (dict "title" .Title "imgurl" .Params.filename  "imgname" "name" "dates" .Params.dates "price" .Params.price "params" .Params)   }}
 
     {{end}}

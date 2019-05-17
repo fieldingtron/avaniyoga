@@ -12,12 +12,14 @@ DefaultContentLanguage = "en"
 [languages]
   [languages.en]
     languageName = "English"
+    contentDir = "content/english"
     title = "Mystical Retreats"
     weight = 1
     [languages.en.params]
       linkedin = "https://linkedin.com/whoever"
   [languages.es]
     languageName = "Espanol"
+    contentDir = "content/spanish"
     title = "Retiros Mysticos"
     weight = 2
 
