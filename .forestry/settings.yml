@@ -6,12 +6,14 @@ webhook_url:
 sections:
 - type: document
   path: content/english/_index.md
-  label: HomePage English
+  label: English Homepage
 - type: directory
-  path: content/english
+  path: content/english/retreats
   label: English
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - retreat
 upload_dir: avaniyoga
 public_path: https://res.cloudinary.com/dflomqzzs/image/upload
 front_matter_path: ''
