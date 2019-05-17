@@ -11,7 +11,7 @@ sections:
   path: content/english
   label: English
   create: all
-  match: "*"
+  match: "**/*"
 - type: directory
   path: content/spanish
   label: Spanish
