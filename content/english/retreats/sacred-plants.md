@@ -1,13 +1,30 @@
 ---
-title: "Sacred Plant Medicine Retreat"
-date: 2018-03-02T17:05:11-03:00
-dates: [July 14 - July 20, July 21 - July 27, July 28 - August 3]
+title: Sacred Plant Medicine Retreat
+date: '2018-03-02T20:05:11.000+00:00'
+dates:
+- July 14 - July 20
+- July 21 - July 27
+- July 28 - August 3
 price: "1300"
-duration: "6 Days, 5 Nights"
-bulletpoints: [All Inclusive, Daily Yoga Classes, Ayahuasca Medicine, "Local, Organic Meals"]
-draft: false
+duration: 6 Days, 5 Nights
+bulletpoints:
+- All Inclusive
+- Daily Yoga Classes
+- Ayahuasca Medicine
+- Local, Organic Meals
 stripe: true
-summary: This retreat is designed to connect with the soul of nature, feel the awakening of the inner divinity. Working to Let go of fear, discovering true  peace and connection to your heart and to the Cosmos.
+summary: This retreat is designed to connect with the soul of nature, feel the awakening
+  of the inner divinity. Working to Let go of fear, discovering true  peace and connection
+  to your heart and to the Cosmos.
+featured_image: "/v1558130509/avaniyoga/56319187_853771954962412_5166910884756324352_n.jpg"
+gallery:
+- "/v1558130530/avaniyoga/happy-dancing-1.jpg"
+- "/v1558130530/avaniyoga/breath-work-1.jpg"
+- "/v1558130529/avaniyoga/58579391_10156102534862093_9116432633994149888_n.jpg"
+- "/v1558130529/avaniyoga/45166267_531059177356682_4047369625455820800_n.jpg"
+- "/v1558130528/avaniyoga/37112111_10156340434900446_2169666131881623552_n.jpg"
+- "/v1558130530/avaniyoga/23316573_1320586398052693_5174389606739757782_n.jpg"
+
 ---
 This retreat is designed to connect with the soul of nature, feel the awakening of the inner divinity.Working to Let go of fear, discovering true  peace and connection to your heart and to the Cosmos. in a process with contribute to  Releasing  all tension and negativity from the mental and emotional bodies, illuminating one's path, and restoring spiritual vision.
 	
