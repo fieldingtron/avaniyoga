@@ -27,7 +27,7 @@ A 6 day workshop, the use of breathing techniques, the release of emotions and t
 
 We will explore techniques to open the voice through chants and mantras, active meditation techniques from Osho, Toltec shamanic techniques to release the same past from the past, and techniques of Egyptian Alchemy and the Magic of Hawaii, to open the heart, expand The limits of our creative imagination, and relate to the 'Outer World' through a channel of light and love and wake up from the collective dream of humanity and remember who you are, and why you came to Earth.
 
-Breath is a powerful tool to dive safely and deeply within one’s own soul, releasing and healing traumas, unblocking channels and dissolving limiting emotional patterns in the cellular memories.  We will open the body, heart and mind to a new, fresh, conscious life of unlimited  possibilities.![at text](https://res.cloudinary.com/dflomqzzs/image/upload/v1557605844/avaniyoga/79.jpg "cool image")
+Breath is a powerful tool to dive safely and deeply within one’s own soul, releasing and healing traumas, unblocking channels and dissolving limiting emotional patterns in the cellular memories.  We will open the body, heart and mind to a new, fresh, conscious life of unlimited  possibilities.! 
 
 We will explore many forms of breath journey:  Rebirthing, shamanic circular breath, chakra cleaning,  Toltec recapitulation, and Egyptian Alchemical transformation, bringing us to a deep harmony and peace within through the miraculous vehicle of our own breathing,  Exploring non-ordinary states of consciousness with the tender support of touch, sound healing,  crystal healing and essential oils.
 

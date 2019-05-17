@@ -49,6 +49,8 @@ team:
   instagram_url: https://www.facebook.com/mabel.araya1
   blurb: Soma Parvati is a sound healer, visionary, mother of two kids who has deeply
     explored yoga, meditation and "alternative" healing therapies
+testimonial_intro: Happy trip participants prove that we can deliver on our promises. Since 2015 we have been making a positive impact on the world through
+          our various healing cultural retreat offerings.
 testimonials:
 - name: Kathy C
   picture: "/v1558088104/avaniyoga/kathy-c.jpg"

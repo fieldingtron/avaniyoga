@@ -16,13 +16,13 @@
                        
                     <!--Card image-->
                     <div class="view overlay">
-                        <img class="card-img-top" src="{{$.Site.Params.cloudinary_url }}{{.Params.picture}}"
+                        <img class="card-img-top" src="{{$.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}}"
                             alt="{{.Title}}">
                         <a href="{{.Permalink}}" >
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
-
+                    <!-- {{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}} -->
                     <!--Card content-->
                     <div class="card-body">
 
