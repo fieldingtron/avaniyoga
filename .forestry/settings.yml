@@ -5,16 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: content/_index.md
-  label: HomePage
+  path: content/english/_index.md
+  label: HomePage English
 - type: directory
-  path: content
-  label: Pages
+  path: content/english
+  label: English
   create: all
   match: "*"
 - type: directory
-  path: content/retreats
-  label: Retreats
+  path: content/spanish
+  label: Spanish
   create: all
   match: "**/*"
 upload_dir: avaniyoga
