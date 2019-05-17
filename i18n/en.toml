@@ -1,11 +1,49 @@
+["Contact us"]
+# file = "contactus.html"
+other = "Contact us"
+# english = "Contact us"
+
 ["Read more"]
-file = "retreats-mainpage.html"
 other = "Read more"
-english = "Read more"
-gtrans = "Lee mas"
+# file = "retreats-mainpage.html"
+# english = "Read more"
+
+["Send us an email or contact us via WhatsApp. We will get back to you quickly."]
+# file = "contactus.html"
+other = "Send us an email or contact us via WhatsApp. We will get back to you quickly."
+# english = "Send us an email or contact us via WhatsApp. We will get back to you quickly."
+
+["Send!"]
+# file = "contactus.html"
+other = "Send!"
+# english = "Send!"
+
+["South America"]
+# file = "contactus.html"
+other = "South America"
+# english = "South America"
+
+[Subject]
+# file = "contactus.html"
+other = "Subject"
+# english = "Subject"
 
 [Testimonials]
-file = "testimonials.html"
 other = "Testimonials"
-english = "Testimonials"
-gtrans = "Testimonios"
+# file = "testimonials.html"
+# english = "Testimonials"
+
+["Your email"]
+# file = "contactus.html"
+other = "Your email"
+# english = "Your email"
+
+["Your message"]
+# file = "contactus.html"
+other = "Your message"
+# english = "Your message"
+
+["Your name"]
+# file = "contactus.html"
+other = "Your name"
+# english = "Your name"
