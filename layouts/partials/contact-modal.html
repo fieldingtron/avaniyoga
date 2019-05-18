@@ -15,11 +15,11 @@
             <div class="d-block d-md-none"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button></div>
-            <img src="{{ .imgurl }}" class="img-fluid" alt="{{ .imgname }}" />
+            <img src="{{ .cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.params.featured_image}}" class="img-fluid" alt="{{ .imgname }}" />
             <h4 class="h5" id="mretreatname">{{ .title }}</h4>
             <p> {{.params.duration}}</p>
 
-            <p> 1 Person Private Bedroom</p>
+            <p> {{T "Details"}}</p>
             <ul>
               {{ range .params.bulletpoints }}
               <li>{{ . }}</li>
@@ -27,7 +27,7 @@
             </ul>
 
             <!-- <p> April 11, 2019 -> April 16, 2019</p> -->
-            <h4 class="h6">Total Price: <span class="h5"><strong>{{.price}}</strong></span></h4>
+            <h4 class="h6">{{T "Total Price"}}: <span class="h5"><strong>${{.params.price}}</strong></span></h4>
 
 
 
@@ -39,11 +39,11 @@
                 <span aria-hidden="true">&times;</span>
               </button></div>
 
-            <div class="h4">Check availability and plan your Dream trip</div>
+            <div class="h4">{{T "Check availability and plan your Dream trip"}}</div>
 
             <form class="border border-light p-2" id="cmodalForm">
 
-              <p class="h4 mb-3 text-center">Contact Mystic Retreats</p>
+              <p class="h4 mb-3 text-center">{{T "Contact Us"}}</p>
 
               <div class="control-group">
                 <input type="text" id="contact-name" class="form-control mb-2" placeholder="Name" minlength="3"
@@ -52,49 +52,37 @@
               </div>
 
               <input type="text" id="contact-phone" class="form-control mb-2"
-                placeholder="Phone Number (optional)">
+                placeholder='{{T "Phone Number (optional)"}}'>
 
               <div class="control-group">
-                <input type="email" id="contact-email" class="form-control mb-2" placeholder="E-mail" required>
+                <input type="email" id="contact-email" class="form-control mb-2" placeholder='{{T "E-mail"}}' required>
                 <p class="help-block text-danger"></p>
               </div>
 
               <select id="modalselect" class="browser-default custom-select mb-2">
-                <option value="select">Select Dates</option>
-                <option value="nodates">No Dates Yet</option>
-                <!-- {{ $c := 0 }} 
-                  {{ if eq $c 0  }} selected{{ end }}
-                   {{$c = add $c 1}}
-                  -->
+                <option value="select">{{T "Select Dates"}}</option>
+                <option value="nodates">{{T "No Dates Yet"}}</option>
                 {{ range .params.dates }}
                 <option value="{{ . }}">{{ . }}</option>
                 {{ end }}
               </select>
 
               <div class="control-group">
-                <textarea class="form-control rounded-0" id="contact-message" rows="7" placeholder="Message"
+                <textarea class="form-control rounded-0" id="contact-message" rows="7" placeholder='{{T "Message"}}'
                   minlength="3" required></textarea>
                 <p class="help-block text-danger"></p>
               </div>
 
               <div id="successcm"></div>
-
-              <!-- <div class="custom-control custom-checkbox mb-4">
-                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-                    </div> -->
               <div class="text-right">
 
-                <button type="submit" class="btn btn-success" id="sendMessageButtonCM">Send Message</button>
-              </div />
+                <button type="submit" class="btn btn-success" id="sendMessageButtonCM">{{T "Send Message"}}</button>
+              </div>
             </form>
 
           </div>
         </div>
-
       </div>
-      <!-- <div class="modal-footer py-1">
-      </div> -->
     </div>
   </div>
 </div>

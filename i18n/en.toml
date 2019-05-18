@@ -1,12 +1,72 @@
+["Check availability and plan your Dream trip"]
+# file = "contact-modal.html"
+other = "Check availability and plan your Dream trip"
+# english = "Check availability and plan your Dream trip"
+
+["Contact Us"]
+# file = "contact-modal.html"
+other = "Contact Us"
+# english = "Contact Us"
+
 ["Contact us"]
 # file = "contactus.html"
 other = "Contact us"
 # english = "Contact us"
 
+[Details]
+# file = "contact-modal.html"
+other = "Details"
+# english = "Details"
+
+[E-mail]
+# file = "contact-modal.html"
+other = "E-mail"
+# english = "E-mail"
+
+["Make a  Deposit"]
+# file = "single.html"
+other = "Make a  Deposit"
+# english = "Make a  Deposit"
+
+[Message]
+# file = "contact-modal.html"
+other = "Message"
+# english = "Message"
+
+["No Dates Yet"]
+# file = "contact-modal.html , single.html"
+other = "No Dates Yet"
+# english = "No Dates Yet"
+
+["Phone Number (optional)"]
+# file = "contact-modal.html"
+other = "Phone Number (optional)"
+# english = "Phone Number (optional)"
+
 ["Read more"]
 other = "Read more"
 # file = "retreats-mainpage.html"
 # english = "Read more"
+
+["Select Arrival Date"]
+# file = "single.html"
+other = "Select Arrival Date"
+# english = "Select Arrival Date"
+
+["Select Dates"]
+# file = "contact-modal.html , single.html"
+other = "Select Dates"
+# english = "Select Dates"
+
+["Send Inquiry"]
+# file = "single.html"
+other = "Send Inquiry"
+# english = "Send Inquiry"
+
+["Send Message"]
+# file = "contact-modal.html"
+other = "Send Message"
+# english = "Send Message"
 
 ["Send us an email or contact us via WhatsApp. We will get back to you quickly."]
 # file = "contactus.html"
@@ -32,6 +92,11 @@ other = "Subject"
 other = "Testimonials"
 # file = "testimonials.html"
 # english = "Testimonials"
+
+["Total Price"]
+# file = "contact-modal.html"
+other = "Total Price"
+# english = "Total Price"
 
 ["Your email"]
 # file = "contactus.html"

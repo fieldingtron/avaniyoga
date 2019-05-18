@@ -68,12 +68,12 @@
                             <h5>{{ .Params.duration }}</h4>
                                 <h3 class="card-title"> $<span id="price">{{ .Params.price }}</span> USD</h3>
 
-                                    <p class="card-text">Select Arrival Date</p>
+                                    <p class="card-text">{{T "Select Arrival Date"}}</p>
                                     <form>
 
                                     <select id="pageselect" class="browser-default custom-select mb-2">
-                                        <option value="select">Select Dates</option>
-                                        <option value="nodates">No Dates Yet</option>
+                                        <option value="select">{{T "Select Dates"}}</option>
+                                        <option value="nodates">{{T "No Dates Yet"}}</option>
                                         <!-- {{ $c := 0 }} 
                                         {{ if eq $c 0  }} selected{{ end }}
                                          {{$c = add $c 1}}
@@ -86,7 +86,7 @@
                                         {{ end }}
                                     </select>
 
-                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">Send Inquiry</a>
+                                    <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#cmodal">{{T "Send Inquiry"}}</a>
                                 </form>
 
                                          <script src="https://checkout.stripe.com/checkout.js"  >
@@ -97,7 +97,7 @@
                                             //payment handled with webtask.io
                                             //document.getElementsByClassName("stripe-button-el")[0].style.display = 'none';
                                         </script>
-                                        <button type="submit" id="buttonz" class="btn btn-outline-primary btn-block my-1">Make a  Deposit</button>
+                                        <button type="submit" id="buttonz" class="btn btn-outline-primary btn-block my-1">{{T "Make a  Deposit"}}</button>
                                         <div id="messageBox">
                                             <h2></h2>
                                         </div>
@@ -121,6 +121,6 @@
     {{ define "footer" }}
     {{ partial "footer" . }}
     
-    {{ partial "contact-modal.html" (dict "title" .Title "imgurl" .Params.filename  "imgname" "name" "dates" .Params.dates "price" .Params.price "params" .Params)   }}
+    {{ partial "contact-modal.html" (dict "title" .Title "cloudinary_url" $.Site.Params.cloudinary_url   "params" .Params)   }}
 
     {{end}}
