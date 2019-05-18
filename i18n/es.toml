@@ -1,0 +1,137 @@
+["Check availability and plan your Dream trip"]
+# file = "contact-modal.html"
+other = "Consulta disponibilidad y planifica tu viaje de ensueño."
+# english = "Check availability and plan your Dream trip"
+# gtrans = "Consulta disponibilidad y planifica tu viaje de ensueño."
+
+["Contact Us"]
+# file = "contact-modal.html"
+other = "Contáctenos"
+# english = "Contact Us"
+# gtrans = "Contáctenos"
+
+["Contact us"]
+# file = "contactus.html"
+other = "Contáctenos"
+# english = "Contact us"
+# gtrans = "Contáctenos"
+
+[Details]
+# file = "contact-modal.html"
+other = "Detalles"
+# english = "Details"
+# gtrans = "Detalles"
+
+[E-mail]
+# file = "contact-modal.html"
+other = "E-mail"
+# english = "E-mail"
+# gtrans = "E-mail"
+
+["Make a  Deposit"]
+# file = "single.html"
+other = "Hacer un depósito"
+# english = "Make a  Deposit"
+# gtrans = "Hacer un depósito"
+
+[Message]
+# file = "contact-modal.html"
+other = "Mensaje"
+# english = "Message"
+# gtrans = "Mensaje"
+
+["No Dates Yet"]
+# file = "contact-modal.html , single.html"
+other = "No hay fechas todavía"
+# english = "No Dates Yet"
+# gtrans = "No hay fechas todavía"
+
+["Phone Number (optional)"]
+# file = "contact-modal.html"
+other = "Numero de teléfono (opcional)"
+# english = "Phone Number (optional)"
+# gtrans = "Numero de teléfono (opcional)"
+
+["Read more"]
+# file = "retreats-mainpage.html"
+other = "Lee mas"
+# english = "Read more"
+# gtrans = "Lee mas"
+
+["Select Arrival Date"]
+# file = "single.html"
+other = "Seleccione la fecha de llegada"
+# english = "Select Arrival Date"
+# gtrans = "Seleccione la fecha de llegada"
+
+["Select Dates"]
+# file = "contact-modal.html , single.html"
+other = "Seleccionar fechas"
+# english = "Select Dates"
+# gtrans = "Seleccionar fechas"
+
+["Send Inquiry"]
+# file = "single.html"
+other = "Enviar Consulta"
+# english = "Send Inquiry"
+# gtrans = "Enviar Consulta"
+
+["Send Message"]
+# file = "contact-modal.html"
+other = "Enviar mensaje"
+# english = "Send Message"
+# gtrans = "Enviar mensaje"
+
+["Send us an email or contact us via WhatsApp. We will get back to you quickly."]
+# file = "contactus.html"
+other = "Envíenos un correo electrónico o contáctenos a través de WhatsApp. Nos pondremos en contacto con usted rápidamente."
+# english = "Send us an email or contact us via WhatsApp. We will get back to you quickly."
+# gtrans = "Envíenos un correo electrónico o contáctenos a través de WhatsApp. Nos pondremos en contacto con usted rápidamente."
+
+["Send!"]
+# file = "contactus.html"
+other = "¡Enviar!"
+# english = "Send!"
+# gtrans = "¡Enviar!"
+
+["South America"]
+# file = "contactus.html"
+other = "Sudamerica"
+# english = "South America"
+# gtrans = "Sudamerica"
+
+[Subject]
+# file = "contactus.html"
+other = "Tema"
+# english = "Subject"
+# gtrans = "Tema"
+
+[Testimonials]
+# file = "testimonials.html"
+other = "Testimonios"
+# english = "Testimonials"
+# gtrans = "Testimonios"
+
+["Total Price"]
+# file = "contact-modal.html"
+other = "Precio total"
+# english = "Total Price"
+# gtrans = "Precio total"
+
+["Your email"]
+# file = "contactus.html"
+other = "Tu correo electrónico"
+# english = "Your email"
+# gtrans = "Tu correo electrónico"
+
+["Your message"]
+# file = "contactus.html"
+other = "Tu mensaje"
+# english = "Your message"
+# gtrans = "Tu mensaje"
+
+["Your name"]
+# file = "contactus.html"
+other = "Tu nombre"
+# english = "Your name"
+# gtrans = "Tu nombre"

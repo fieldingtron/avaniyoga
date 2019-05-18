@@ -9,8 +9,7 @@ from googletrans import Translator
 # set the language 
 # set whether to use google translate or not
 
-lang = "en"
-gtranslate = False
+lang = "es"
 translator = Translator()
 
 # this function does regex match to convert three toml fields into comment fields
