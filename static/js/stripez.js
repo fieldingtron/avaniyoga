@@ -23,7 +23,7 @@ function create_UUID(){
 }
 
 const handler = StripeCheckout.configure({
-  key: "pk_test_hmuxAR4Gp8zFUrhZbbou8wPx",
+  key: "pk_live_BdsQNgPSR39Cdno5uBIpp9U3",
   image: '/images/logo.png',
   locale: 'auto',
   closed: function () {
