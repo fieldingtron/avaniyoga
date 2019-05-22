@@ -7,10 +7,10 @@
                     {{ $count := 0}}
                     {{ range  .Params.summary_items}} 
                     <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="col-lg-4 col-md-6 mb-4">
     
-                        <div class="hoverable">
-                            <img src="{{$.Site.Params.cloudinary_url }}/c_fill,g_faces,h_300,w_450{{.picture}}" class="img-fluid z-depth-2 rounded"  alt="{{.title}}">
+                        <div>
+                            <img src="{{$.Site.Params.cloudinary_url }}/c_fill,g_faces,h_300,w_450{{.picture}}" class="img-fluid z-depth-2 rounded mx-auto d-block"  alt="{{.title}}">
                         </div>
     
                         <h4 class="my-4 font-weight-bold">{{.title}}</h4>
