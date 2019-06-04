@@ -27,7 +27,7 @@ summary_items:
 - title: Healthy Meals
   text: Vegan, vegetarian diets taking into account food intolerance. Buying from
     local markets and organic produce.
-  picture: "/v1557865598/avaniyoga/vegetable-skewer-3317060_640.jpg"
+  picture: "/v1559655312/avaniyoga/salad-2756467_960_720.jpg"
 - title: Connect With Nature
   text: Relax and Enjoy the natural delights. Peru is a beautiful place and you can
     relax and recharge easily here.
@@ -49,7 +49,9 @@ team:
   instagram_url: https://www.facebook.com/mabel.araya1
   blurb: Soma Parvati is a sound healer, visionary, mother of two kids who has deeply
     explored yoga, meditation and "alternative" healing therapies
-testimonial_intro: Happy trip participants prove that we can deliver on our promises. Since 2015 we have been making a positive impact on the world through our various healing cultural retreat offerings.
+testimonial_intro: Happy trip participants prove that we can deliver on our promises.
+  Since 2015 we have been making a positive impact on the world through our various
+  healing cultural retreat offerings.
 testimonials:
 - name: Kathy C
   picture: "/v1558088104/avaniyoga/kathy-c.jpg"
@@ -57,13 +59,14 @@ testimonials:
     her knowledge of holistic healing along with a daily lesson.
 - name: Diana P
   picture: "/v1558043912/avaniyoga/diana-p.jpg"
-  testimonial: "I have traveled to over sixty countries and this
-    has been the best. I left with a heavy heart since I felt I made so many dear
-    friends.\n"
+  testimonial: 'I have traveled to over sixty countries and this has been the best.
+    I left with a heavy heart since I felt I made so many dear friends.
+
+'
 - name: Jackie G
   picture: "/v1558088006/avaniyoga/jacky-g.jpg"
-  testimonial: "The best decision I made. Soma was extremely welcoming
-    and fun to be around. I would love to come back and do it all again."
+  testimonial: The best decision I made. Soma was extremely welcoming and fun to be
+    around. I would love to come back and do it all again.
 
 ---
 testing 123
