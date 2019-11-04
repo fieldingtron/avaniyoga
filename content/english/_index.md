@@ -65,9 +65,9 @@ testimonials:
   picture: "/v1558088006/avaniyoga/jacky-g.jpg"
   testimonial: The best decision I made. Soma was extremely welcoming and fun to be
     around. I would love to come back and do it all again.
-- name: Jackie G
-  picture: "/v1558088006/avaniyoga/jacky-g.jpg"
-  testimonial: Infinite gratitude for this therapy. Memories of this life and beyond. Sustained by Devakant and Soma who guided me in this search for my truth and healing. 
+# - name: Jackie G
+#   picture: "/v1558088006/avaniyoga/jacky-g.jpg"
+#   testimonial: Infinite gratitude for this therapy. Memories of this life and beyond. Sustained by Devakant and Soma who guided me in this search for my truth and healing. 
 
 
 
