@@ -2,9 +2,7 @@
 title: Sacred Plant Medicine Retreat
 date: '2018-03-02T20:05:11.000+00:00'
 dates:
-- July 14 - July 20
-- July 21 - July 27
-- July 28 - August 3
+- March 15 - March 20
 price: "1300"
 duration: 6 Days, 5 Nights
 bulletpoints:
