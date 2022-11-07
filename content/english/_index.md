@@ -4,7 +4,6 @@ date: '2018-11-15T02:02:50.000+00:00'
 gallery:
 - "/v1557861922/avaniyoga/paco-1694024_1280.jpg"
 - "/v1557862037/avaniyoga/peru-143875_1920.jpg"
-- "/v1557499212/avaniyoga/Mahi__-165_Large_tsevqs.jpg"
 - "/v1557581250/avaniyoga/main-macchu-pichu.jpg"
 - "/v1557861204/avaniyoga/yoga-1994667_1280.jpg"
 summary_title: Recharge and Reawaken with Mystic Retreats
@@ -37,13 +36,12 @@ summary_items:
     and alter your perception of consciousness
   picture: "/v1557865699/avaniyoga/breath-work.jpg"
 team:
-- name: Deva Kant
-  title: Musician and Sound Healer
-  blurb: Devakant is a mystic musician and artist, who has explored many pathways
+- name: Fields Marshall
+  title: Anthropologist and Student of Shamanism
+  blurb: Fields Marshall is a mystic musician and artist, who has explored many pathways
     of inner experience and sacred tradition in the world.
-  facebook_page_url: https://www.facebook.com/devakantmusic
-  instagram_url: https://www.devakant.com/
-- name: Soma Parvati
+  instagram_url: https://www.cnn.com/
+- name: Soma Mais
   title: Trip Leader
   facebook_page_url: https://www.facebook.com/mabel.araya1
   instagram_url: https://www.facebook.com/mabel.araya1
