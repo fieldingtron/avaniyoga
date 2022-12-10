@@ -33,6 +33,8 @@ $(function () {
             yemail: email,
             ymessage: message,
           },
+          dataType: 'json',
+          encode: true,
           cache: false,
           success: function () {
             // Success message
