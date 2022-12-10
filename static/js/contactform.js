@@ -35,6 +35,7 @@ $(function () {
           },
           dataType: 'json',
           encode: true,
+          contentType: 'multipart/form-data',
           cache: false,
           success: function () {
             // Success message
