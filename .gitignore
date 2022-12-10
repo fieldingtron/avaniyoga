@@ -5,3 +5,4 @@ public/
 .env
 .netlify
 resources
+.hugo_build.lock
