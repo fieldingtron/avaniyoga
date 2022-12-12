@@ -115,7 +115,6 @@ $(function () {
         // get values from FORM
         var name = $('#cmodal input#contact-name').val()
         var email = $('#cmodal input#contact-email').val()
-        var phone = $('#cmodal input#contact-phone').val()
         var subject = $('#mretreatname').text()
         var dates = $('#modalselect').val()
         var message = dates + '  ' + $('#cmodal textarea#contact-message').val()
@@ -128,19 +127,29 @@ $(function () {
         }
         $this = $('#sendMessageButtonCM')
         $this.prop('disabled', true) // Disable submit button until AJAX call is complete to prevent duplicate messages
-        $.ajax({
-          url: 'https://jumprock.co/mail/gonkertron',
-          type: 'POST',
-          data: {
-            name: name,
-            subject: subject,
-            phone: phone,
-            email: email,
-            message: message,
-          },
-          cache: false,
-          success: function () {
-            // Success message
+
+        //submit using standard fetch
+
+        var formdata = new FormData()
+        formdata.append('yemail', email)
+        formdata.append('ymessage', message)
+        formdata.append('yname', name)
+        formdata.append('ysubject', subject + ' ' + dates)
+
+        var requestOptions = {
+          method: 'POST',
+          body: formdata,
+          redirect: 'follow',
+        }
+
+        fetch(
+          'https://contemplative.dreamhosters.com/wp-json/contact-form-7/v1/contact-forms/313/feedback',
+          requestOptions
+        )
+          .then((response) => response.text())
+          .then((result) => {
+            console.log('submitted!')
+            //success message
             $('#successcm').html("<div class='alert alert-success'>")
             $('#successcm > .alert-success')
               .html(
@@ -153,8 +162,9 @@ $(function () {
             $('#successcm > .alert-success').append('</div>')
             //clear all fields
             $('#cmodalForm').trigger('reset')
-          },
-          error: function () {
+          })
+          .catch((error) => {
+            console.log(error)
             // Fail message
             $('#successcm').html("<div class='alert alert-danger'>")
             $('#successcm > .alert-danger')
@@ -172,13 +182,10 @@ $(function () {
             $('#successcm > .alert-danger').append('</div>')
             //clear all fields
             $('#cmodalForm').trigger('reset')
-          },
-          complete: function () {
-            setTimeout(function () {
-              $this.prop('disabled', false) // Re-enable submit button when AJAX call is complete
-            }, 1000)
-          },
-        })
+          })
+          .finally(() => {
+            $this.prop('disabled', false) // Re-enable submit button when
+          })
       },
       filter: function () {
         return $(this).is(':visible')

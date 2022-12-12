@@ -1,46 +1,46 @@
 <section id="retreats" class="text-center">
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-4">Retreat Options</h2>
+  <!-- Section description -->
+  <p class="lead grey-text w-responsive mx-auto mb-5">
+    Our retreats change and transform lives. While all of our retreats are
+    rejuvenating and fun, they also offer in depth immersion in a healthy
+    lifestyle .
+  </p>
 
-        <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold my-4">Retreat Options</h2>
-        <!-- Section description -->
-        <p class="lead grey-text w-responsive mx-auto mb-5">Our retreats change and transform lives. While all of our retreats are rejuvenating and fun, 
-            they also offer in depth immersion in a healthy lifestyle .</p>
-           
-            
-            <!-- Card deck -->
-            <div class="card-deck">
-                    {{ range where .Site.RegularPages "Section" "in" (slice "retreats") }}
-            <!-- {{ . }}  {{ .Title}} -->
-                <!-- Card -->
-                <div class="card mb-4" style="min-width: 18rem;">
-                       
-                    <!--Card image-->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="{{$.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}}"
-                            alt="{{.Title}}">
-                        <a href="{{.Permalink}}" >
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-                    <!-- {{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}} -->
-                    <!--Card content-->
-                    <div class="card-body">
+  <!-- Card deck -->
+  <div class="card-deck">
+    {{ range where .Site.RegularPages "Section" "in" (slice "retreats") }}
+    <!-- {{ . }}  {{ .Title}} -->
+    <!-- Card -->
+    <div class="card mb-4" style="min-width: 18rem">
+      <!--Card image-->
+      <div class="view overlay">
+        <img
+          class="card-img-top"
+          src="{{$.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}}"
+          alt="{{.Title}}"
+        />
+        <a href="{{.Permalink}}">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!-- {{ $.Site.Params.cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.Params.featured_image}} -->
+      <!--Card content-->
+      <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">{{.Title}}</h4>
+        <!--Text-->
+        <p class="card-text">{{.Params.summary}}</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <a href="{{.Permalink}}" class="btn btn-light-blue btn-md"
+          >{{T "Read more"}}</a
+        >
+      </div>
+    </div>
+    <!-- Card -->
 
-                        <!--Title-->
-                        <h4 class="card-title">{{.Title}}</h4>
-                        <!--Text-->
-                        <p class="card-text">{{.Params.summary}} </p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <a href="{{.Permalink}}"   class="btn btn-light-blue btn-md">{{T "Read more"}}</a>
-
-                    </div>
-
-                </div>
-                <!-- Card -->
-
-                {{ end }}
-           
-
-            </div>
-            <!-- Card deck -->
-        </section>
+    {{ end }}
+  </div>
+  <!-- Card deck -->
+</section>
