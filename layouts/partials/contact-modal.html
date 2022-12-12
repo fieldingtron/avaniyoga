@@ -1,5 +1,12 @@
 <!-- Modal -->
-<div class="modal fade" id="cmodal" tabindex="-1" role="dialog" aria-labelledby="cmodal" aria-hidden="true">
+<div
+  class="modal fade"
+  id="cmodal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="cmodal"
+  aria-hidden="true"
+>
   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <!-- <div class="modal-header">
@@ -11,15 +18,25 @@
       <div class="modal-body pb-0">
         <div class="row">
           <div class="col-md-4">
-
-            <div class="d-block d-md-none"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="d-block d-md-none">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
-              </button></div>
-            <img src="{{ .cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.params.featured_image}}" class="img-fluid" alt="{{ .imgname }}" />
+              </button>
+            </div>
+            <img
+              src="{{ .cloudinary_url }}/c_fill,g_faces,h_350,w_600{{.params.featured_image}}"
+              class="img-fluid"
+              alt="{{ .imgname }}"
+            />
             <h4 class="h5" id="mretreatname">{{ .title }}</h4>
-            <p> {{.params.duration}}</p>
+            <p>{{.params.duration}}</p>
 
-            <p> {{T "Details"}}</p>
+            <p>{{T "Details"}}</p>
             <ul>
               {{ range .params.bulletpoints }}
               <li>{{ . }}</li>
@@ -27,39 +44,69 @@
             </ul>
 
             <!-- <p> April 11, 2019 -> April 16, 2019</p> -->
-            <h4 class="h6">{{T "Total Price"}}: <span class="h5"><strong>${{.params.price}}</strong></span></h4>
+            <h4 class="h6">
+              {{T "Total Price"}}:
+              <span class="h5"><strong>${{.params.price}}</strong></span>
+            </h4>
+            <div>
+              <a target="_blank" href="https://wa.me/13863370231"
+                ><i class="fab fa-whatsapp fa-3x mt-4 blue-text"></i
+              ></a>
 
-
-
-
+              <a target="_blank" href="https://wa.me/13863370231">
+                + 1 (386) 337-0231</a
+              >
+            </div>
           </div>
           <div class="col-md-8">
-
-            <div class="d-none d-md-block"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="d-none d-md-block">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
-              </button></div>
+              </button>
+            </div>
 
-            <div class="h4">{{T "Check availability and plan your Dream trip"}}</div>
+            <div class="h4">
+              {{T "Check availability and plan your Dream trip"}}
+            </div>
 
             <form class="border border-light p-2" id="cmodalForm">
-
               <p class="h4 mb-3 text-center">{{T "Contact Us"}}</p>
 
               <div class="control-group">
-                <input type="text" id="contact-name" class="form-control mb-2" placeholder="Name" minlength="3"
-                  required>
+                <input
+                  type="text"
+                  id="contact-name"
+                  class="form-control mb-2"
+                  placeholder="Name"
+                  minlength="3"
+                  required
+                />
                 <p class="help-block text-danger"></p>
               </div>
 
-              <input type="text" id="contact-phone" class="form-control mb-2"
-                placeholder='{{T "Phone Number (optional)"}}'>
+              <!-- <input type="text" id="contact-phone" class="form-control mb-2"
+                placeholder='{{T "Phone Number (optional)"}}'> -->
 
               <div class="control-group">
-                <input type="email" id="contact-email" class="form-control mb-2" placeholder='{{T "E-mail"}}' required>
+                <input
+                  type="email"
+                  id="contact-email"
+                  class="form-control mb-2"
+                  placeholder='{{T "E-mail"}}'
+                  required
+                />
                 <p class="help-block text-danger"></p>
               </div>
 
-              <select id="modalselect" class="browser-default custom-select mb-2">
+              <select
+                id="modalselect"
+                class="browser-default custom-select mb-2"
+              >
                 <option value="select">{{T "Select Dates"}}</option>
                 <option value="nodates">{{T "No Dates Yet"}}</option>
                 {{ range .params.dates }}
@@ -68,18 +115,28 @@
               </select>
 
               <div class="control-group">
-                <textarea class="form-control rounded-0" id="contact-message" rows="7" placeholder='{{T "Message"}}'
-                  minlength="3" required></textarea>
+                <textarea
+                  class="form-control rounded-0"
+                  id="contact-message"
+                  rows="7"
+                  placeholder='{{T "Message"}}'
+                  minlength="3"
+                  required
+                ></textarea>
                 <p class="help-block text-danger"></p>
               </div>
 
               <div id="successcm"></div>
               <div class="text-right">
-
-                <button type="submit" class="btn btn-success" id="sendMessageButtonCM">{{T "Send Message"}}</button>
+                <button
+                  type="submit"
+                  class="btn btn-success"
+                  id="sendMessageButtonCM"
+                >
+                  {{T "Send Message"}}
+                </button>
               </div>
             </form>
-
           </div>
         </div>
       </div>
