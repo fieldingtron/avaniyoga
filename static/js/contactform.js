@@ -10,7 +10,7 @@ $(function () {
         // additional error messages or events
       },
       submitSuccess: function ($form, event) {
-        console.log('submitting')
+        console.log('submitting!!')
         event.preventDefault() // prevent default submit behaviour
         // get values from FORM
         var name = $('input#contact-name').val()
@@ -24,21 +24,27 @@ $(function () {
         }
         $this = $('#sendMessageButton')
         $this.prop('disabled', true) // Disable submit button until AJAX call is complete to prevent duplicate messages
-        $.ajax({
-          url: 'https://contemplative.dreamhosters.com/wp-json/contact-form-7/v1/contact-forms/313/feedback',
-          type: 'POST',
-          data: {
-            yname: name,
-            ysubject: subject,
-            yemail: email,
-            ymessage: message,
-          },
-          dataType: 'json',
-          encode: true,
-          contentType: 'multipart/form-data',
-          cache: false,
-          success: function () {
-            // Success message
+        // Create an FormData object
+
+        var formdata = new FormData()
+        formdata.append('yemail', email)
+        formdata.append('ymessage', message)
+        formdata.append('yname', name)
+        formdata.append('ysubject', subject)
+
+        var requestOptions = {
+          method: 'POST',
+          body: formdata,
+          redirect: 'follow',
+        }
+
+        fetch(
+          'https://contemplative.dreamhosters.com/wp-json/contact-form-7/v1/contact-forms/313/feedback',
+          requestOptions
+        )
+          .then((response) => response.text())
+          .then((result) => {
+            console.log(result)
             $('#success').html("<div class='alert alert-success'>")
             $('#success > .alert-success')
               .html(
@@ -51,8 +57,9 @@ $(function () {
             $('#success > .alert-success').append('</div>')
             //clear all fields
             $('#contactForm').trigger('reset')
-          },
-          error: function () {
+          })
+          .catch((error) => {
+            console.log('error', error)
             // Fail message
             $('#success').html("<div class='alert alert-danger'>")
             $('#success > .alert-danger')
@@ -70,13 +77,10 @@ $(function () {
             $('#success > .alert-danger').append('</div>')
             //clear all fields
             $('#contactForm').trigger('reset')
-          },
-          complete: function () {
-            setTimeout(function () {
-              $this.prop('disabled', false) // Re-enable submit button when AJAX call is complete
-            }, 1000)
-          },
-        })
+          })
+          .finally(() => {
+            $this.prop('disabled', false) // Re-enable submit button when
+          })
       },
       filter: function () {
         return $(this).is(':visible')
