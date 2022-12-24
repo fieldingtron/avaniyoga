@@ -6,3 +6,4 @@ public/
 .netlify
 resources
 .hugo_build.lock
+bin/
