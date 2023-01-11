@@ -27,6 +27,11 @@ gallery:
 - "/v1673469216/avaniyoga/futa-rivers_kbgxmi.jpg"
 - "/v1673469215/avaniyoga/futa-lagoyelcho_uweo9b.jpg"
 - "/v1673469215/avaniyoga/rafting-flyfishing_blbfjr.jpg"
+- "/v1673472138/avaniyoga/futa-monasterio-lodge1_gcawfj.jpg"
+- "/v1673472140/avaniyoga/futa-monasterio-lodge2_bkipw2.jpg"
+- "/v1673472139/avaniyoga/futa-monasterio-lodge3_karbnq.jpg"
+- "/v1673472139/avaniyoga/futa-monasterio-lodge4_lfrgtl.jpg"
+- "/v1673472138/avaniyoga/futa-uphigh-futaleufu-002_qsuqye.jpg"
 
 ---
 
