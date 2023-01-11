@@ -1,3 +1,4 @@
+
 {
   "name": "atlas",
   "private": true,
@@ -6,8 +7,8 @@
     "build:preview": "hugo --buildFuture",
     "start": "exec-bin bin/hugo server",
     "server": "exec-bin bin/hugo/hugo server",
-    "series": "run-s build start",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended"
+    "series": "run-s build start"
+    
 
   },
   "dependencies": {
