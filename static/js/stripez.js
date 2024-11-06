@@ -1,7 +1,7 @@
 //import uuid from 'uuid/v4';
 
 //const url = "http://localhost:8888"
-const url = 'https://mysticretreats.netlify.com'
+const url = 'https://avaniyogaretreats.netlify.com'
 
 const amount = (document.getElementById('price').textContent * 100) / 2
 console.log('ammount=' + amount)
@@ -67,7 +67,7 @@ $button.addEventListener('click', () => {
 
   handler.open({
     amount,
-    name: 'avani yoga retreats',
+    name: 'Avani Yoga Retreats',
     description: 'Retreat Deposit Payment',
   })
 })
