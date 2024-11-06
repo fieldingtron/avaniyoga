@@ -6,7 +6,7 @@ title = "Mystic Retreats"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 DefaultContentLanguage = "en"
 [languages]
@@ -26,3 +26,6 @@ DefaultContentLanguage = "en"
 [params]
 disallow_search_engines = true # set robots.txt to disallow everything
 cloudinary_url = "https://res.cloudinary.com/dflomqzzs/image/upload"
+
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$', '^CONTEXT$']

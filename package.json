@@ -11,24 +11,24 @@
 
   },
   "dependencies": {
-    "autoprefixer": "^9.5.0",
-    "dotenv": "^7.0.0",
-    "easy-pdf-merge": "^0.2.1",
-    "netlify-lambda": "^1.4.3",
-    "one-liner-joke": "^1.2.0",
-    "postcss-cli": "^6.1.2",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.6.0",
-    "stripe": "^6.30.0",
-    "uuid": "^3.3.2"
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.5",
+    "easy-pdf-merge": "^0.2.6",
+    "netlify-lambda": "^2.0.16",
+    "one-liner-joke": "^1.2.2",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-preset-env": "^10.0.9",
+    "stripe": "^17.3.1",
+    "uuid": "^11.0.2"
   },
   "devDependencies": {
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^9.2.1",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^4.0.1",
     "npm-run-all": "^4.1.5",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   },
   "otherDependencies": {
     "hugo": "0.82.0" 

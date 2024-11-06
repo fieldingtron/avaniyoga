@@ -27,10 +27,10 @@ $(function () {
         // Create an FormData object
 
         var formdata = new FormData()
-        formdata.append('yemail', email)
-        formdata.append('ymessage', message)
-        formdata.append('yname', name)
-        formdata.append('ysubject', subject)
+        formdata.append('email', email)
+        formdata.append('message', message)
+        formdata.append('name', name)
+        formdata.append('subject', subject)
 
         var requestOptions = {
           method: 'POST',
@@ -38,10 +38,7 @@ $(function () {
           redirect: 'follow',
         }
 
-        fetch(
-          'https://contemplative.dreamhosters.com/wp-json/contact-form-7/v1/contact-forms/313/feedback',
-          requestOptions
-        )
+        fetch('https://formspree.io/f/mzzbrzno', requestOptions)
           .then((response) => response.text())
           .then((result) => {
             console.log(result)
