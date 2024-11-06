@@ -2,19 +2,17 @@
   "name": "atlas",
   "private": true,
   "scripts": {
-    "build": "hugo --minify",
+    "build": "hugo",
     "build:preview": "hugo --buildFuture",
     "start": "hugo server",
-    "server": "hugo server",
-    "series": "run-s build start"
+    "server": "hugo server" 
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.5",
-    "easy-pdf-merge": "^0.2.6",
-    "fs-extra": "^11.2.0",
     "netlify-lambda": "^2.0.16",
-    "one-liner-joke": "^1.2.2",
+    "fs-extra": "^11.2.0",
+
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
     "postcss-preset-env": "^10.0.9",
