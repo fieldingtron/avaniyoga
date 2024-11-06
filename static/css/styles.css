@@ -13,3 +13,40 @@ body {
 .aboutus {
   max-width: 20rem;
 }
+
+
+ main .container ul {
+  list-style-type: none;  
+  padding-left: 1rem; /* Removes default padding */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main .container ul li {
+  padding: 0.5rem 0; /* Adds space between items */
+  border-bottom: 1px solid #ddd; /* Light border for separation */
+  /* max-width: 75% */
+}
+
+main ul li:last-child {
+  border-bottom: none; /* Remove border from last item */
+}
+
+main ul li a {
+  color: #007bff; /* Bootstrap primary color for links */
+  text-decoration: none;
+}
+
+main ul li a:hover {
+  color: #0056b3; /* Darker shade on hover */
+  text-decoration: underline; /* Underline for better accessibility */
+}
+
+main p {
+  line-height: 1.8rem;
+}
+main h1,h2,h3,h4,h5 {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  font-weight: 400;
+}

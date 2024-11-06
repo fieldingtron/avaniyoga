@@ -6,78 +6,84 @@ $(function () {
       preventSubmit: true,
       submitError: function ($form, event, errors) {
         console.log('error')
-
         // additional error messages or events
       },
-      submitSuccess: function ($form, event) {
+      submitSuccess: async function ($form, event) {
         console.log('submitting!!')
         event.preventDefault() // prevent default submit behaviour
-        // get values from FORM
+
+        // Get values from the form
         var name = $('input#contact-name').val()
         var email = $('input#contact-email').val()
         var subject = $('input#contact-subject').val()
         var message = $('textarea#contact-message').val()
-        var firstName = name // For Success/Failure Message
-        // Check for white space in name for Success/Fail message
-        if (firstName.indexOf(' ') >= 0) {
-          firstName = name.split(' ').slice(0, -1).join(' ')
-        }
-        $this = $('#sendMessageButton')
-        $this.prop('disabled', true) // Disable submit button until AJAX call is complete to prevent duplicate messages
-        // Create an FormData object
+        var firstName = name.split(' ')[0] // For Success/Failure Message
 
-        var formdata = new FormData()
-        formdata.append('email', email)
-        formdata.append('message', message)
-        formdata.append('name', name)
-        formdata.append('subject', subject)
+        // Display loading state on submit button
+        var $this = $('#sendMessageButton')
+        $this.prop('disabled', true)
 
-        var requestOptions = {
-          method: 'POST',
-          body: formdata,
-          redirect: 'follow',
-        }
+        // Create FormData object for Formspree
+        var data = new FormData()
+        data.append('name', name)
+        data.append('email', email)
+        data.append('subject', subject)
+        data.append('message', message)
 
-        fetch('https://formspree.io/f/mzzbrzno', requestOptions)
-          .then((response) => response.text())
-          .then((result) => {
-            console.log(result)
-            $('#success').html("<div class='alert alert-success'>")
-            $('#success > .alert-success')
-              .html(
-                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
-              )
-              .append('</button>')
-            $('#success > .alert-success').append(
-              '<strong>Your message has been sent. </strong>'
-            )
-            $('#success > .alert-success').append('</div>')
-            //clear all fields
-            $('#contactForm').trigger('reset')
+        // Send data to Formspree
+        try {
+          let response = await fetch('https://formspree.io/f/mpwzddvg', {
+            method: 'POST',
+            body: data,
+            headers: { Accept: 'application/json' },
           })
-          .catch((error) => {
-            console.log('error', error)
-            // Fail message
-            $('#success').html("<div class='alert alert-danger'>")
-            $('#success > .alert-danger')
+
+          if (response.ok) {
+            $('#success')
+              .html("<div class='alert alert-success'>")
+              .find('.alert-success')
               .html(
-                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
+                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>"
               )
-              .append('</button>')
-            $('#success > .alert-danger').append(
+              .append('<strong>Your message has been sent. </strong>')
+              .append('</div>')
+            $('#contactForm').trigger('reset') // Clear all fields
+          } else {
+            let errorData = await response.json()
+            let errorMessage = 'Oops! There was a problem submitting your form.'
+            if (errorData.errors) {
+              errorMessage = errorData.errors
+                .map((error) => error.message)
+                .join(', ')
+            }
+            $('#success')
+              .html("<div class='alert alert-danger'>")
+              .find('.alert-danger')
+              .html(
+                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>"
+              )
+              .append($('<strong>').text(errorMessage))
+              .append('</div>')
+          }
+        } catch (error) {
+          console.log('error', error)
+          $('#success')
+            .html("<div class='alert alert-danger'>")
+            .find('.alert-danger')
+            .html(
+              "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>"
+            )
+            .append(
               $('<strong>').text(
                 'Sorry ' +
                   firstName +
                   ', it seems that my mail server is not responding. Please try again later!'
               )
             )
-            $('#success > .alert-danger').append('</div>')
-            //clear all fields
-            $('#contactForm').trigger('reset')
-          })
-          .finally(() => {
-            $this.prop('disabled', false) // Re-enable submit button when
-          })
+            .append('</div>')
+        } finally {
+          $this.prop('disabled', false) // Re-enable submit button
+        }
       },
       filter: function () {
         return $(this).is(':visible')
@@ -90,120 +96,7 @@ $(function () {
   })
 })
 
-/*When clicking on Full hide fail/success boxes */
+/* Clear success/fail messages on focus */
 $('#name').focus(function () {
   $('#success').html('')
-})
-
-/* eslint-disable no-undef */
-$(function () {
-  $('#cmodal input,#cmodal select,#cmodal textarea')
-    .not('[type=submit]')
-    .jqBootstrapValidation({
-      preventSubmit: true,
-      submitError: function ($form, event, errors) {
-        console.log('error')
-
-        // additional error messages or events
-      },
-      submitSuccess: function ($form, event) {
-        console.log('submitting contact modal form')
-        event.preventDefault() // prevent default submit behaviour
-        // get values from FORM
-        var name = $('#cmodal input#contact-name').val()
-        var email = $('#cmodal input#contact-email').val()
-        var subject = $('#mretreatname').text()
-        var dates = $('#modalselect').val()
-        var message = dates + '  ' + $('#cmodal textarea#contact-message').val()
-        console.log('subject = ' + message)
-
-        var firstName = name // For Success/Failure Message
-        // Check for white space in name for Success/Fail message
-        if (firstName.indexOf(' ') >= 0) {
-          firstName = name.split(' ').slice(0, -1).join(' ')
-        }
-        $this = $('#sendMessageButtonCM')
-        $this.prop('disabled', true) // Disable submit button until AJAX call is complete to prevent duplicate messages
-
-        //submit using standard fetch
-
-        var formdata = new FormData()
-        formdata.append('yemail', email)
-        formdata.append('ymessage', message)
-        formdata.append('yname', name)
-        formdata.append('ysubject', subject + ' ' + dates)
-
-        var requestOptions = {
-          method: 'POST',
-          body: formdata,
-          redirect: 'follow',
-        }
-
-        fetch(
-          'https://contemplative.dreamhosters.com/wp-json/contact-form-7/v1/contact-forms/313/feedback',
-          requestOptions
-        )
-          .then((response) => response.text())
-          .then((result) => {
-            console.log('submitted!')
-            //success message
-            $('#successcm').html("<div class='alert alert-success'>")
-            $('#successcm > .alert-success')
-              .html(
-                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
-              )
-              .append('</button>')
-            $('#successcm > .alert-success').append(
-              '<strong>Your message has been sent. </strong>'
-            )
-            $('#successcm > .alert-success').append('</div>')
-            //clear all fields
-            $('#cmodalForm').trigger('reset')
-          })
-          .catch((error) => {
-            console.log(error)
-            // Fail message
-            $('#successcm').html("<div class='alert alert-danger'>")
-            $('#successcm > .alert-danger')
-              .html(
-                "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
-              )
-              .append('</button>')
-            $('#successcm > .alert-danger').append(
-              $('<strong>').text(
-                'Sorry ' +
-                  firstName +
-                  ', it seems that my mail server is not responding. Please try again later!'
-              )
-            )
-            $('#successcm > .alert-danger').append('</div>')
-            //clear all fields
-            $('#cmodalForm').trigger('reset')
-          })
-          .finally(() => {
-            $this.prop('disabled', false) // Re-enable submit button when
-          })
-      },
-      filter: function () {
-        return $(this).is(':visible')
-      },
-    })
-
-  $('a[data-toggle="tab"]').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-  })
-})
-
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function () {
-  $('#successcm').html('')
-})
-
-$(document).ready(function () {
-  $('#pageselect').change(function () {
-    var selectedVal = $(this).children('option:selected').val()
-    $('#modalselect').val(selectedVal)
-    // alert("You have selected the country - " + selectedCountry);
-  })
 })

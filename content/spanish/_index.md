@@ -1,5 +1,5 @@
 ---
-title: Mystic Retreats in Peru
+title: avani yoga retreats in Peru
 date: '2018-11-15T02:02:50.000+00:00'
 gallery:
 - "/v1557861922/avaniyoga/paco-1694024_1280.jpg"
@@ -7,7 +7,7 @@ gallery:
 - "/v1557499212/avaniyoga/Mahi__-165_Large_tsevqs.jpg"
 - "/v1557581250/avaniyoga/main-macchu-pichu.jpg"
 - "/v1557861204/avaniyoga/yoga-1994667_1280.jpg"
-summary_title: Recharge and Reawaken with Mystic Retreats
+summary_title: Recharge and Reawaken with avani yoga retreats
 summary_intro: 'Come for an unforgettable adventure to regenerate and energize your
   body, mind, and soul. Sacred Rituals in powerful ancient temples, Deep emotional
   and psychic cleansing through breath-work journeys; shamanic wisdom and meditations
