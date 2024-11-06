@@ -5,8 +5,8 @@
   "scripts": {
     "build": "hugo --minify",
     "build:preview": "hugo --buildFuture",
-    "start": "exec-bin bin/hugo server",
-    "server": "exec-bin bin/hugo/hugo server",
+    "start": "hugo server",
+    "server": "hugo server",
     "series": "run-s build start"  
 
   },
@@ -24,13 +24,11 @@
   },
   "devDependencies": {
     "babel-loader": "^9.2.1",
-    "exec-bin": "^1.0.0",
-    "hugo-installer": "^4.0.1",
     "npm-run-all": "^4.1.5",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
   },
   "otherDependencies": {
-    "hugo": "0.82.0" 
+    "hugo": "0.135.0" 
   }
 }
