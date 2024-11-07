@@ -2,8 +2,9 @@ const crypto = require('node:crypto')
 const fs = require('node:fs')
 const readline = require('node:readline')
 
+console.log(process.env.NODE_ENV)
 // Check if running in production
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV?.toLowerCase() === 'production') {
   console.log(
     'Production environment detected. Skipping encryption/decryption.'
   )
@@ -69,6 +70,7 @@ async function decryptFile(password) {
     await encryptFile(password)
   } else if (envEncExists && !envExists) {
     // If .env.enc exists but .env does not, decrypt .env.enc
+    console.log(process.env.NODE_ENV)
     console.log('.env.enc exists but .env does not. Decrypting .env.enc...')
     const password = await promptPassword(
       'Enter password to decrypt .env.enc: '
