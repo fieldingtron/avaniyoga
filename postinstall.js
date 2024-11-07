@@ -7,8 +7,8 @@ console.log(process.env)
 
 // Check if running in production based on NODE_ENV or VERCEL_ENV
 if (
-  process.env.NODE_ENV?.toLowerCase() === 'production' ||
-  process.env.VERCEL_ENV?.toLowerCase() === 'production'
+  process.env.VERCEL_ENV?.toLowerCase() === 'production' ||
+  process.env.CONTEXT?.toLowerCase() === 'production'
 ) {
   console.log(
     'Production environment detected. Skipping encryption/decryption.'
@@ -20,6 +20,9 @@ if (
 console.log(
   'Not in production environment. Proceeding with encryption/decryption.'
 )
+
+console.log('process.env')
+console.log(process.env)
 
 // Helper function to prompt for a password
 function promptPassword(question) {
