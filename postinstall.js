@@ -4,18 +4,22 @@ const readline = require('node:readline')
 
 console.log('process.env')
 console.log(process.env)
-console.log('process.env.NODE_ENV')
-console.log(process.env.NODE_ENV)
-console.log('process.env.VERCEL_ENV')
-console.log(process.env.VERCEL_ENV)
 
-// Check if running in production
-if (process.env.NODE_ENV?.toLowerCase() === 'production') {
+// Check if running in production based on NODE_ENV or VERCEL_ENV
+if (
+  process.env.NODE_ENV?.toLowerCase() === 'production' ||
+  process.env.VERCEL_ENV?.toLowerCase() === 'production'
+) {
   console.log(
     'Production environment detected. Skipping encryption/decryption.'
   )
   process.exit(0) // Exit the script without running any further
 }
+
+// Continue with the rest of your script if not in production
+console.log(
+  'Not in production environment. Proceeding with encryption/decryption.'
+)
 
 // Helper function to prompt for a password
 function promptPassword(question) {
