@@ -63,7 +63,7 @@ const handler = StripeCheckout.configure({
 $button.addEventListener('click', () => {
   setTimeout(() => {
     $button.innerHTML = 'Waiting for response...'
-  }, 500)
+  }, 500)Jj
 
   handler.open({
     amount,
