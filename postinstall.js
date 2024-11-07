@@ -3,6 +3,8 @@ const fs = require('node:fs')
 const readline = require('node:readline')
 
 console.log(process.env.NODE_ENV)
+console.log(process.env.VERCEL_ENV)
+
 // Check if running in production
 if (process.env.NODE_ENV?.toLowerCase() === 'production') {
   console.log(
