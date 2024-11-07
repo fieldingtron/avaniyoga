@@ -5,7 +5,7 @@
     "build": "hugo && node postinstall.js",
     "build:preview": "hugo --buildFuture",
     "dev": "npm run start",
-    "start": "node postinstall.js && hugo server",
+    "start": "hugo server",
     "server": "npm run start",
     "postinstall": "node postinstall.js"
   },
