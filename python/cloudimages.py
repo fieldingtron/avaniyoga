@@ -4,11 +4,7 @@ import cloudinary
 from cloudinary.uploader import upload
 from cloudinary.utils import cloudinary_url
 
-cloudinary.config(
-  cloud_name = 'dflomqzzs',  
-  api_key = '551793558191525',  
-  api_secret = 'y6MeQGL0-fOdeQSYVfvX1G4deCQ'  
-)
+
 
 DEFAULT_TAG = "python_sample"
 
