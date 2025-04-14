@@ -1,12 +1,17 @@
 {
   "redirects": [
     {
-      "source": "/yoga-retreat-packages/futaleufu-yoga-nature-retreat/:path*",
+      "source": "/yoga-retreat-packages/futaleufu-yoga-nature-retreat",
       "destination": "https://www.avaniyogaretreats.com/",
       "permanent": true
     },
     {
-      "source": "/yoga-retreat-packages/futaleufu-yoga-nature-retreat",
+      "source": "/yoga-retreat-packages/futaleufu-yoga-nature-retreat/(.*)",
+      "destination": "https://www.avaniyogaretreats.com/",
+      "permanent": true
+    },
+    {
+      "source": "/yoga-retreat-packages/futaleufu-yoga-nature-retreat/\\?:query*",
       "destination": "https://www.avaniyogaretreats.com/",
       "permanent": true
     }
