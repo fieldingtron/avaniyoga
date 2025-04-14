@@ -6,3 +6,4 @@
 {{- end -}}
 /hi /.netlify/functions/hello-world/hello-world.js 200
 https://mysticretreats.netlify.com/* https://www.mysticretreats.net/:splat 301!
+https://www.avaniyogaretreats.com/yoga-retreat-packages/futaleufu-yoga-nature-retreat/  https://www.avaniyogaretreats.com/retreats/whitewater/ 301!
