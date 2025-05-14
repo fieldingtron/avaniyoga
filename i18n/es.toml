@@ -84,7 +84,7 @@ other = "Enviar mensaje"
 
 ["Send us an email or contact us via WhatsApp. We will get back to you quickly."]
 # file = "contactus.html"
-other = "Envíenos un correo electrónico o contáctenos a través de WhatsApp. Nos pondremos en contacto con usted rápidamente."
+other = "Email o WhatsApp"
 # english = "Send us an email or contact us via WhatsApp. We will get back to you quickly."
 # gtrans = "Envíenos un correo electrónico o contáctenos a través de WhatsApp. Nos pondremos en contacto con usted rápidamente."
 

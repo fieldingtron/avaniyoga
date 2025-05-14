@@ -1,113 +1,89 @@
 <!-- Section: Contact v.2 -->
 <section id="contactus" class="m-2 p-2 card">
-
-  <!-- Section heading -->
-  <h2 class="h1-responsive font-weight-bold text-center my-3">{{T "Contact us"}}</h2>
-  <!-- Section description -->
+  <h2 class="h1-responsive font-weight-bold text-center my-3">
+    {{T "Contact us"}}
+  </h2>
   <p class="text-center w-responsive mx-auto mb-5">{{T "Send us an email or contact us via WhatsApp. We will get back to you quickly."}}</p>
 
-  <!-- Grid row -->
   <div class="row">
-
-    <!-- Grid column -->
     <div class="col-md-9 mb-md-0 mb-5">
       <form id="contactForm">
-        <!-- Grid row -->
         <div class="row">
-          <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0 control-group">
-              <input type="text" id="contact-name" class="form-control" minlength="3">
+              <input
+                type="text"
+                id="contact-name"
+                class="form-control"
+                minlength="3"
+              />
               <label for="contact-name" class="">{{T "Your name"}}</label>
               <p class="help-block text-danger"></p>
             </div>
           </div>
-          <!-- Grid column -->
-          <!-- Grid column -->
           <div class="col-md-6">
             <div class="md-form mb-0 control-group">
-              <input type="email" id="contact-email" class="form-control" required>
+              <input
+                type="email"
+                id="contact-email"
+                class="form-control"
+                required
+              />
               <label for="contact-email" class="">{{T "Your email"}}</label>
               <p class="help-block text-danger"></p>
             </div>
           </div>
-          <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
 
-        <!-- Grid row -->
         <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-md-12">
-            <div class="md-form mb-0 control-group">
-              <input type="text" id="contact-subject" class="form-control" minlength="3" required>
-              <label for="contact-subject" class="">{{T "Subject"}}</label>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
           <div class="col-md-12">
             <div class="md-form control-group">
-              <textarea id="contact-message" class="form-control md-textarea" rows="3" minlength="3" required></textarea>
-              <label for="contact-message">{{T "Your message"}}</label>
+              <textarea
+                id="contact-message"
+                class="form-control md-textarea"
+                rows="3"
+                minlength="3"
+                required
+              ></textarea>
+              <label for="contact-message">{{T "Message"}}</label>
               <p class="help-block text-danger"></p>
-
             </div>
           </div>
-          <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
-
 
         <div class="text-center text-md-left">
           <div id="success"></div>
-          <button type=submit class="btn btn-primary btn-md" id="sendMessageButton">{{T "Send!"}}</a>
+          <button
+            type="submit"
+            class="btn btn-primary btn-md"
+            id="sendMessageButton"
+          >
+            {{T "Send!"}}
+          </button>
         </div>
       </form>
-
     </div>
-    <!-- Grid column -->
 
-    <!-- Grid column -->
     <div class="col-md-3 text-center">
       <ul class="list-unstyled mb-0">
         <li>
           <i class="fas fa-map-marker-alt fa-2x blue-text"></i>
-          <p>Pucon<br /> Chile<br /> {{T "South America"}}</p>
+          <p>Pucon<br />Chile<br />{{T "South America"}}</p>
         </li>
         <li>
-          <a target="_blank" href="https://wa.me/13863370231"><i class="fab fa-whatsapp fa-3x mt-4 blue-text"></i></a>
-          <p><a target="_blank" href="https://wa.me/13525028826"> + 1 (352) 502-8826</a></p>
+          <a target="_blank" href="https://wa.me/13525028826"
+            ><i class="fab fa-whatsapp fa-3x mt-4 blue-text"></i
+          ></a>
+          <p>
+            <a target="_blank" href="https://wa.me/13525028826"
+              >+ 1 (352) 502-8826</a
+            >
+          </p>
         </li>
         <li>
           <i class="fas fa-envelope fa-2x mt-4 blue-text"></i>
-          <!-- <p class="mb-0">contact@mysticretreats.com</p> -->
         </li>
       </ul>
-
-
-
-
-
     </div>
-    <!-- Grid column -->
-
-
   </div>
-
-
-
-
 </section>
-<!-- Section: Contact v.2 -->

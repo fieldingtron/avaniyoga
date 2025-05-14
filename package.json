@@ -12,16 +12,16 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.5",
-    "netlify-lambda": "^2.0.16",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
     "postcss-preset-env": "^10.0.9",
-    "stripe": "^17.3.1",
+    "resend": "^4.5.1",
+    "stripe": "^18.1.0",
     "uuid": "^11.0.2"
   },
   "devDependencies": {
-    "babel-loader": "^9.2.1",
+    "babel-loader": "^10.0.0",
     "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^6.0.1"
   }
 }
