@@ -9,13 +9,22 @@ if (fs.existsSync(".env")) {
   dotenv.config({ path: ".env" });
 }
 
-// Check if running in production based on CONTEXT or VERCEL_ENV
+const isVercelBuild = Boolean(process.env.VERCEL);
+const deployContext =
+  process.env.VERCEL_ENV?.toLowerCase() ||
+  process.env.CONTEXT?.toLowerCase() ||
+  "";
+
+// Skip interactive encryption/decryption on deployment builds and CI.
 if (
-  process.env.VERCEL_ENV?.toLowerCase() === "production" ||
-  process.env.CONTEXT?.toLowerCase() === "production"
+  isVercelBuild ||
+  process.env.CI === "true" ||
+  ["production", "preview", "deploy-preview", "branch-deploy"].includes(
+    deployContext
+  )
 ) {
   console.log(
-    "Production environment detected. Skipping encryption/decryption."
+    "Deployment/CI environment detected. Skipping encryption/decryption."
   );
   process.exit(0); // Exit the script without running any further
 }
