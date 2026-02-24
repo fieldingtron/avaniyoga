@@ -7,7 +7,9 @@
     "dev": "npm run start",
     "start": "hugo server",
     "server": "npm run start",
-    "postinstall": "node postinstall.js"
+    "postinstall": "node postinstall.js",
+    "test": "node --test tests/**/*.test.cjs",
+    "test:spam": "node --test tests/spam-protection.test.cjs"
   },
   "dependencies": {
     "autoprefixer": "*",

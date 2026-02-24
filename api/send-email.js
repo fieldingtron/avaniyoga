@@ -1,4 +1,7 @@
 import { Resend } from "resend";
+import spamProtection from "./lib/spam-protection.cjs";
+
+const { isValidContactPayload, isSpam, spamScore } = spamProtection;
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -10,13 +13,30 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { name, email, message, subject } = req.body;
+  const { name, email, message, subject, website, hp, formStartTime } =
+    req.body || {};
   console.log("Form data received:", {
     name,
     email,
     subject,
     messageLength: message?.length,
+    hasHoneypotValue: Boolean(website || hp),
   });
+
+  if (!isValidContactPayload({ name, email, message })) {
+    return res.status(400).json({ error: "Invalid contact form submission" });
+  }
+
+  const submission = { name, email, message, website, hp, formStartTime };
+  const submissionSpamScore = spamScore(submission);
+  if (isSpam(submission)) {
+    console.warn("Spam blocked", {
+      email,
+      spamScore: submissionSpamScore,
+      hasHoneypotValue: Boolean(website || hp),
+    });
+    return res.status(202).json({ success: true });
+  }
 
   if (!process.env.RESEND_API_KEY) {
     console.error("Missing RESEND_API_KEY environment variable");
@@ -73,6 +93,7 @@ export default async function handler(req, res) {
       fromEmail: process.env.EMAIL_FROM,
       toEmails: [process.env.EMAIL_TO],
       replyTo: email,
+      spamScore: submissionSpamScore,
       messagePreview: message?.substring(0, 50) + "...",
     });
     const data = await resend.emails.send({
