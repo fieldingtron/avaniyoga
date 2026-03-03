@@ -10,6 +10,9 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
+  // Contact form is temporarily disabled to prevent spam
+  return res.status(503).json({ error: "The contact form is temporarily disabled. Please reach out via WhatsApp." });
+
   const { name, email, message, subject } = req.body;
   console.log("Form data received:", {
     name,
